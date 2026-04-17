@@ -171,7 +171,6 @@ export default function HeroSlider() {
           { value: '500+', label: 'Projects Delivered' },
           { value: '18+', label: 'Years Experience' },
           { value: '98%', label: 'Client Satisfaction' },
-          { value: '50+', label: 'Expert Team' },
         ].map((s, i) => (
           <div className="hero-stat" key={i}>
             <span className="hero-stat-value">{s.value}</span>
