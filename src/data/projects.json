@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Shantam Sapphire",
+    "category": "Completed",
+    "location": "Ahmedabad, Gujarat",
+    "year": "2024",
+    "area": "25,000 sq ft",
+    "rating": 5.0,
+    "tag": "Luxury",
+    "img": "https://images.unsplash.com/photo-1613977257592-4871e5fcd7c4?w=800&q=80",
+    "desc": "A prestigious residential development offering unparalleled luxury and state-of-the-art amenities."
+  },
+  {
+    "id": 2,
+    "title": "Shantam-9",
+    "category": "Completed",
+    "location": "Ahmedabad, Gujarat",
+    "year": "2023",
+    "area": "18,000 sq ft",
+    "rating": 4.9,
+    "tag": "Featured",
+    "img": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
+    "desc": "A modern residential complex designed for comfort and contemporary urban living."
+  },
+  {
+    "id": 3,
+    "title": "Shantam-11",
+    "category": "Completed",
+    "location": "Surat, Gujarat",
+    "year": "2024",
+    "area": "30,000 sq ft",
+    "rating": 5.0,
+    "tag": "Premium",
+    "img": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80",
+    "desc": "An iconic commercial landmark offering prime office spaces and retail environments."
+  },
+  {
+    "id": 4,
+    "title": "Shilp Embark",
+    "category": "Completed",
+    "location": "Ahmedabad, Gujarat",
+    "year": "2022",
+    "area": "45,000 sq ft",
+    "rating": 4.8,
+    "tag": "Commercial",
+    "img": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80",
+    "desc": "A benchmark in commercial architecture with cutting-edge facilities and strategic location."
+  },
+  {
+    "id": 5,
+    "title": "Shantam Sky",
+    "category": "Ongoing",
+    "location": "Vadodara, Gujarat",
+    "year": "Coming 2025",
+    "area": "22,000 sq ft",
+    "rating": 0.0,
+    "tag": "New Launch",
+    "img": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&q=80",
+    "desc": "An upcoming residential masterwork that promises a life of luxury and tranquility."
+  }
+]
