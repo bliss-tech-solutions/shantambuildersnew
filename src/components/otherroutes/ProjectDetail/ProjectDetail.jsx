@@ -244,7 +244,7 @@ function FloorPlansSection({ project }) {
         <div className={`pd-floor-header reveal ${visible ? 'visible' : ''}`}>
           <div className="sb-section-label" style={{ justifyContent: 'center' }}>Floor Plans</div>
           <h2 className="sb-section-title" style={{ textAlign: 'center' }}>
-            Heart of <em>Himmatnagar</em>
+            Heart of <em>{project.location.split(',').pop().trim() || 'Modasa'}</em>
           </h2>
         </div>
 
@@ -295,17 +295,28 @@ function FloorPlansSection({ project }) {
 
             {/* Floor Images */}
             <div className="pd-floor-images">
-              {plan.image && (
-                <div className="pd-floor-img-wrap">
-                  <img src={plan.image} alt={plan.title} className="pd-floor-img" />
-                  <span className="pd-floor-img-label">View</span>
-                </div>
-              )}
-              {plan.floorImage && (
-                <div className="pd-floor-img-wrap">
-                  <img src={plan.floorImage} alt={`${plan.title} Map`} className="pd-floor-img" />
-                  <span className="pd-floor-img-label">Floor Map</span>
-                </div>
+              {plan.images && plan.images.length > 0 ? (
+                plan.images.map((img, idx) => (
+                  <div className="pd-floor-img-wrap" key={idx}>
+                    <img src={img.url} alt={img.label || plan.title} className="pd-floor-img" />
+                    <span className="pd-floor-img-label">{img.label || 'View'}</span>
+                  </div>
+                ))
+              ) : (
+                <>
+                  {plan.image && (
+                    <div className="pd-floor-img-wrap">
+                      <img src={plan.image} alt={plan.title} className="pd-floor-img" />
+                      <span className="pd-floor-img-label">View</span>
+                    </div>
+                  )}
+                  {plan.floorImage && (
+                    <div className="pd-floor-img-wrap">
+                      <img src={plan.floorImage} alt={`${plan.title} Map`} className="pd-floor-img" />
+                      <span className="pd-floor-img-label">Floor Map</span>
+                    </div>
+                  )}
+                </>
               )}
             </div>
           </div>

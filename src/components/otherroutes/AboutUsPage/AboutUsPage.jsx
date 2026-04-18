@@ -110,7 +110,7 @@ function VisionSection() {
           <div className={`au-vision-img-col reveal ${visible ? 'visible' : ''}`} style={{ transitionDelay: '0ms' }}>
             <div className="au-vision-img-wrap">
               <img
-                src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=900&q=80"
+                src="/Images/AboutUsImage.png"
                 alt="Our Vision"
                 className="au-vision-img"
               />

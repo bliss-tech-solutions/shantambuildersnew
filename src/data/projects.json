@@ -381,42 +381,123 @@
   {
     "id": "shilp-embark",
     "title": "Shilp Embark",
-    "subtitle": "Where Commerce Meets Architecture",
+    "subtitle": "... a Ideal address for Better Future",
     "category": "Completed",
     "type": "Commercial",
-    "location": "Ahmedabad, Gujarat",
+    "location": "Nr. Fatepura Circle, Mehsana Bypass Highway, Mehsana",
     "year": "2022",
     "area": "45,000 sq ft",
     "rating": 4.8,
     "tag": "Commercial",
-    "img": "/Images/ProjectsImages/Shantam3.png",
-    "desc": "A benchmark in commercial architecture with cutting-edge facilities and strategic location.",
-    "heroDescription": "Shilp Embark is a benchmark in commercial architecture, offering cutting-edge facilities at a strategic Ahmedabad location. Designed for businesses that demand excellence.",
+    "img": "/Images/ProjectsImages/Shilp-Embark/bg/slider-1.png",
+    "desc": "Bringing to you, Shilp Embark, Mehsana's first venture of Business embark spaces, Well equipped with all essentials for growing business. Be the beneficiary with a junction of Showrooms, Offices & Shops.",
+    "heroDescription": "Mehsana's Modern Business Embark. Trendy design with an eye-catching elevation.",
     "subDescription": "Embark on a new chapter for your business at this landmark commercial destination.",
-    "tagline": "Cutting-edge commercial spaces at a strategic Ahmedabad location.",
-    "businessTagline": "Shilp Embark gives your business the landmark address it deserves — where commerce meets architectural excellence.",
-    "primeLocation": "Ahmedabad, Gujarat",
-    "locationImages": [],
+    "tagline": "A Junction of Showrooms, Offices & Shops.",
+    "businessTagline": "Trendy design with an eye-catching elevation. Be proud of a beautiful Night View.",
+    "primeLocation": "Nr. Fatepura Circle, Mehsana",
+    "locationImages": [
+      "/Images/ProjectsImages/Shilp-Embark/bg/ground-floor-plan.png",
+      "/Images/ProjectsImages/Shilp-Embark/bg/first-floor-plan.png",
+      "/Images/ProjectsImages/Shilp-Embark/bg/second-floor-plan.png"
+    ],
+    "folioImages": [
+      "/Images/ProjectsImages/Shilp-Embark/folio/inner-slider-1.jpg",
+      "/Images/ProjectsImages/Shilp-Embark/folio/inner-slider-2.jpg",
+      "/Images/ProjectsImages/Shilp-Embark/folio/inner-slider-3.jpg"
+    ],
     "salientFeatures": [
-      { "icon": "location", "text": "Prime Location: Ahmedabad" },
-      { "icon": "office", "text": "Premium Commercial Spaces" },
-      { "icon": "amenity", "text": "Retail, Offices & Food Courts" }
+      { "icon": "office", "text": "Building plan approved as commercial complex" },
+      { "icon": "amenity", "text": "Full road frontage with adequate signage space" },
+      { "icon": "amenity", "text": "Well designed foyers at every level" },
+      { "icon": "amenity", "text": "MCB & ELCB switches in all units" },
+      { "icon": "amenity", "text": "Ample visitor parking space on ground level" },
+      { "icon": "amenity", "text": "High-Tech lift with auto door concept" },
+      { "icon": "amenity", "text": "N.A., N.O.C. plan approved" }
+    ],
+    "floorPlans": [
+      {
+        "id": "ground",
+        "title": "Ground Floor Plan",
+        "tagline": "Showrooms & Offices. Trendy Design... with an eye catching elevation.",
+        "areaSheet": [
+          { "shopNo": "1", "dimensions": "Standard", "sqft": "560" },
+          { "shopNo": "2", "dimensions": "Standard", "sqft": "527" },
+          { "shopNo": "3 to 16", "dimensions": "Standard", "sqft": "301" },
+          { "shopNo": "17 to 24", "dimensions": "Standard", "sqft": "271" },
+          { "shopNo": "25 to 30", "dimensions": "Standard", "sqft": "301" },
+          { "shopNo": "31 to 32", "dimensions": "Standard", "sqft": "592" }
+        ],
+        "images": [
+          { "url": "/Images/ProjectsImages/Shilp-Embark/bg/ground-floor-plan.png", "label": "Key View" },
+          { "url": "/Images/ProjectsImages/Shilp-Embark/floor/shilp-embark-ground-floor.jpg", "label": "Floor Map" },
+          { "url": "/Images/ProjectsImages/Shilp-Embark/folio/ground-img-2.jpg", "label": "Elevation" }
+        ]
+      },
+      {
+        "id": "first",
+        "title": "First Floor Plan",
+        "tagline": "Shops & Hospital. Be the beneficiary with a junction of Showroom, Offices & Shops.",
+        "areaSheet": [
+          { "shopNo": "1", "dimensions": "Standard", "sqft": "742" },
+          { "shopNo": "2", "dimensions": "Standard", "sqft": "527" },
+          { "shopNo": "3 to 16", "dimensions": "Standard", "sqft": "347" },
+          { "shopNo": "17 to 24", "dimensions": "Standard", "sqft": "315" },
+          { "shopNo": "25 to 30", "dimensions": "Standard", "sqft": "347" },
+          { "shopNo": "31", "dimensions": "Standard", "sqft": "592" },
+          { "shopNo": "32", "dimensions": "Standard", "sqft": "764" }
+        ],
+        "images": [
+          { "url": "/Images/ProjectsImages/Shilp-Embark/bg/first-floor-plan.png", "label": "Key View" },
+          { "url": "/Images/ProjectsImages/Shilp-Embark/floor/shilp-embark-first-floor.jpg", "label": "Floor Map" },
+          { "url": "/Images/ProjectsImages/Shilp-Embark/folio/first-floor-img-2.jpg", "label": "Layout" }
+        ]
+      },
+      {
+        "id": "second",
+        "title": "Second Floor Plan",
+        "tagline": "Banquet Hall & Restaurant. Comprising most suitable space for a variety of businesses.",
+        "areaSheet": [
+          { "shopNo": "1", "dimensions": "Standard", "sqft": "2034" },
+          { "shopNo": "2 to 7", "dimensions": "Standard", "sqft": "694" },
+          { "shopNo": "8", "dimensions": "Standard", "sqft": "842" },
+          { "shopNo": "9", "dimensions": "Standard", "sqft": "871" },
+          { "shopNo": "10 to 11", "dimensions": "Standard", "sqft": "630" },
+          { "shopNo": "12", "dimensions": "Standard", "sqft": "740" },
+          { "shopNo": "13 to 15", "dimensions": "Standard", "sqft": "694" },
+          { "shopNo": "16", "dimensions": "Standard", "sqft": "1748" }
+        ],
+        "images": [
+          { "url": "/Images/ProjectsImages/Shilp-Embark/bg/second-floor-plan.png", "label": "Key View" },
+          { "url": "/Images/ProjectsImages/Shilp-Embark/floor/shilp-embark-second-floor.jpg", "label": "Floor Map" },
+          { "url": "/Images/ProjectsImages/Shilp-Embark/folio/second-floor-img-1.jpg", "label": "Night View" }
+        ]
+      }
     ],
     "specifications": [
-      { "label": "Flooring", "detail": "Premium vitrified tiles flooring in all areas. Paved parking area." },
-      { "label": "Finishing", "detail": "Single coat mala plaster with white cement putty inside. Double coat sandface plaster with acrylic paint outside." },
-      { "label": "Electric", "detail": "Concealed copper wiring. Sufficient points with modular switches." },
-      { "label": "Lift", "detail": "Automatic Branded Company Lift." }
+      { "label": "Structure", "detail": "R.C.C Frame structure with Earthquake resistance." },
+      { "label": "Flooring", "detail": "Vitrified tiles flooring in all area. Paved block in parking area." },
+      { "label": "Doors & Windows", "detail": "Flush door shutters, fully glazed aluminum window in offices and rolling shutters for shops." },
+      { "label": "Finishing", "detail": "Inside single coat mala plaster with white cement putty; outside double coat sandface plaster with acrylic paint." },
+      { "label": "Electric", "detail": "Single phase concealed copper electric wiring. Sufficient electric points with modular switches. One telephone point in each shop & office." },
+      { "label": "Plumbing", "detail": "UPVC piping with branded plumbing and sanitary fixtures." }
     ],
     "termsAndConditions": [
-      "This brochure is not to be treated as part of legal document and is for easy display of the project only.",
-      "All measurements are super buildup and subject to change as required.",
-      "GEB, Stamp duty, Registration, service tax, VAT or any other government taxes/Charges will be borne by members."
+      "All measurements are subject to change as required.",
+      "The right to change in plan and any structure reserves with the organizer.",
+      "No External changes will be allowed or entertained.",
+      "Internal changes mandate to the organizer approval and be charged extra.",
+      "All legal charges, Stamp duty, GEB Connection Charges, Service tax will be borne by the member.",
+      "Any extra charges in between due to change in Government policy or rates will be informed and are to be borne by the member.",
+      "Maintenance deposit shall be borne by the member.",
+      "Irregular payment will lead to cancellation of booking to new book value.",
+      "Any change directed by architect / organizer will be binding to all the members.",
+      "This brochure is not to be treated as part of legal document and is for easy display of the project only."
     ],
     "process": [
-      { "step": "01", "title": "Idea & Start", "desc": "Site assessment and commercial vision planning." },
-      { "step": "02", "title": "Design & Create", "desc": "Commercial architectural blueprints and permits." },
-      { "step": "03", "title": "Build & Finish", "desc": "Quality construction and seamless handover." }
+      { "step": "01", "title": "Idea & Start", "desc": "Bringing to you Mehsana's first venture of Business embark spaces." },
+      { "step": "02", "title": "Design & Create", "desc": "Modern architecture with full road frontage and adequate signage space." },
+      { "step": "03", "title": "Build & Finish", "desc": "Well equipped with all essentials for growing business." }
     ]
   }
 ]
