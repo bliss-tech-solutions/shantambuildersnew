@@ -8,7 +8,7 @@
     "area": "25,000 sq ft",
     "rating": 5.0,
     "tag": "Luxury",
-    "img": "https://images.unsplash.com/photo-1613977257592-4871e5fcd7c4?w=800&q=80",
+    "img": "/Images/ProjectsImages/shantamsapphire.png",
     "desc": "A prestigious residential development offering unparalleled luxury and state-of-the-art amenities."
   },
   {
@@ -20,7 +20,7 @@
     "area": "18,000 sq ft",
     "rating": 4.9,
     "tag": "Featured",
-    "img": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
+    "img": "/Images/ProjectsImages/Shantam-9.png",
     "desc": "A modern residential complex designed for comfort and contemporary urban living."
   },
   {
@@ -32,7 +32,7 @@
     "area": "30,000 sq ft",
     "rating": 5.0,
     "tag": "Premium",
-    "img": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80",
+    "img": "/Images/ProjectsImages/Shantam-11.png",
     "desc": "An iconic commercial landmark offering prime office spaces and retail environments."
   },
   {
@@ -44,7 +44,7 @@
     "area": "45,000 sq ft",
     "rating": 4.8,
     "tag": "Commercial",
-    "img": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80",
+    "img": "/Images/ProjectsImages/Shantam3.png",
     "desc": "A benchmark in commercial architecture with cutting-edge facilities and strategic location."
   },
   {
@@ -56,7 +56,7 @@
     "area": "22,000 sq ft",
     "rating": 0.0,
     "tag": "New Launch",
-    "img": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&q=80",
+    "img": "/Images/ProjectsImages/ShantamSolitor.png",
     "desc": "An upcoming residential masterwork that promises a life of luxury and tranquility."
   }
 ]

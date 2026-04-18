@@ -38,7 +38,7 @@ const slides = [
   // },
   {
     id: 4,
-    img: 'https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?w=1400&q=80',
+    img: '/Images/ProjectsImages/Shantam-9.png',
     label:  'Luxury Living',
     location: 'Gujarat, India',
     tagline: 'Shantam Group',
@@ -47,7 +47,7 @@ const slides = [
   },
   {
     id: 5,
-    img: 'https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=1400&q=80',
+    img: '/Images/ProjectsImages/Shantam-7.png',
     label:  'Bespoke Architecture',
     location: 'Gujarat, India',
     tagline: 'Shantam Group',
@@ -56,7 +56,7 @@ const slides = [
   },
   {
     id: 6,
-    img: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1400&q=80',
+    img: '/Images/ProjectsImages/Shantam-11.png',
     label:  'Corporate Excellence',
     location: 'Gujarat, India',
     tagline: 'Shantam Group',
@@ -65,7 +65,7 @@ const slides = [
   },
   {
     id: 7,
-    img: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=1400&q=80',
+    img: '/Images/ProjectsImages/shantamsapphire.png',
     label:  'Luxury Landmark',
     location: 'Gujarat, India',
     tagline: 'Shantam Group',
@@ -121,7 +121,7 @@ export default function HeroSlider() {
                     <span key={li} className="slide-headline-line">{line}</span>
                   ))}
                 </h1>
-                <p className="slide-desc">{slide.description}</p>
+                {/* <p className="slide-desc">{slide.description}</p> */}
                 <div className="slide-meta">
                   <span className="slide-meta-item">
                     <EnvironmentOutlined /> {slide.location}
