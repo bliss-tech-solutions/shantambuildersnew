@@ -18,7 +18,7 @@ export default function Footer() {
           <div className="footer-brand">
             <Link to="/" className="footer-logo" style={{ textDecoration: 'none' }}>
               <img 
-                src="/Images/Logo/shantam-logo.svg" 
+                src="/Images/Logo/shantamLogoBlack.svg" 
                 alt="Shantam Group Logo" 
                 className="footer-logo-img" 
               />

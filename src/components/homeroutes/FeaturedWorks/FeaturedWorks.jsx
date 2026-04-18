@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { HiOutlineArrowRight, HiOutlineMapPin } from 'react-icons/hi2';
 import './FeaturedWorks.css';
 import projectsData from '../../../data/projects.json';
@@ -73,10 +74,11 @@ export default function FeaturedWorks() {
         {/* ── Project List ── */}
         <div className="fw-list">
           {filtered.map((project, i) => (
-            <div
+            <Link
               key={project.id}
+              to={`/projects/${project.id}`}
               className={`fw-item reveal ${isRevealed ? 'visible' : ''} ${hoveredId === project.id ? 'fw-item--hovered' : ''}`}
-              style={{ transitionDelay: `${200 + i * 80}ms` }}
+              style={{ transitionDelay: `${200 + i * 80}ms`, textDecoration: 'none' }}
               onMouseEnter={() => setHoveredId(project.id)}
               onMouseLeave={() => setHoveredId(null)}
             >
@@ -122,7 +124,7 @@ export default function FeaturedWorks() {
 
               {/* Hover accent line */}
               <div className="fw-item-accent-line" />
-            </div>
+            </Link>
           ))}
         </div>
 

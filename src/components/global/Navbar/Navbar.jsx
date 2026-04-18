@@ -44,7 +44,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link to="/" className="navbar-brand">
             <img 
-              src="/Images/Logo/shantam-logo.svg" 
+              src="/Images/Logo/shantamLogoBlack.svg" 
               alt="Shantam Group" 
               className="navbar-logo-img" 
             />
@@ -88,7 +88,7 @@ export default function Navbar() {
         <div className="mobile-menu-header">
           <Link to="/" className="navbar-brand" onClick={() => setMobileMenuOpen(false)}>
             <img 
-              src="/Images/Logo/shantam-logo.svg" 
+              src="/Images/Logo/shantamLogoBlack.svg" 
               alt="Shantam Group" 
               className="navbar-logo-img" 
             />

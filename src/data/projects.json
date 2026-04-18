@@ -1,62 +1,289 @@
 [
   {
-    "id": 1,
+    "id": "shantam-sapphire",
     "title": "Shantam Sapphire",
+    "subtitle": "Your New Beginning",
     "category": "Completed",
-    "location": "Ahmedabad, Gujarat",
+    "type": "Residential",
+    "location": "Ambawadi, Ahmedabad, Gujarat",
     "year": "2024",
     "area": "25,000 sq ft",
     "rating": 5.0,
     "tag": "Luxury",
     "img": "/Images/ProjectsImages/shantamsapphire.png",
-    "desc": "A prestigious residential development offering unparalleled luxury and state-of-the-art amenities."
+    "desc": "A prestigious residential development offering unparalleled luxury and state-of-the-art amenities.",
+    "heroDescription": "We are thrilled to introduce Shantam Sapphire, our premium redevelopment project located in the prime area of Ambawadi, Ahmedabad. Designed with modern architecture, comfort, and sustainability in mind, Shantam Sapphire offers luxurious living in the heart of the city.",
+    "subDescription": "Experience a home where security, elegance, and convenience come together. Join us in shaping the future of urban living at Shantam Sapphire.",
+    "tagline": "Luxury 3 BHK apartments in the heart of Ambawadi, Ahmedabad. Experience spacious interiors, modern amenities, and a prime location crafted for your comfort and lifestyle.",
+    "businessTagline": "Business is a game of having advanced outlook and guts to outpace rivals. You can achieve the same by giving an address that can convey your Class with superiority. Shantam Sapphire with its global outlook leads your business to a striking edge.",
+    "primeLocation": "Ambawadi, Ahmedabad",
+    "locationImages": [
+      "/Images/ProjectsImages/ShantamSapphirePrimeLocationsPhotos/PrimeLocationImage1.jpg",
+      "/Images/ProjectsImages/ShantamSapphirePrimeLocationsPhotos/PrimeLocationImage2.jpg",
+      "/Images/ProjectsImages/ShantamSapphirePrimeLocationsPhotos/PrimeLocationImage3.jpg",
+      "/Images/ProjectsImages/ShantamSapphirePrimeLocationsPhotos/PrimeLocationImage4.jpg"
+    ],
+    "salientFeatures": [
+      { "icon": "location", "text": "Prime Location: Ambawadi" },
+      { "icon": "apartment", "text": "3 BHK Apartments" },
+      { "icon": "amenity", "text": "All Modern Amenities — Walking Distance" },
+      { "icon": "temple", "text": "Jain Derasar & Temple" },
+      { "icon": "garden", "text": "Garden" },
+      { "icon": "hospital", "text": "Hospital" },
+      { "icon": "theatre", "text": "Theatre / Multiplex" },
+      { "icon": "school", "text": "School & College" },
+      { "icon": "mall", "text": "Mall" }
+    ],
+    "specifications": [
+      {
+        "label": "Flooring",
+        "detail": "Vitrified tiles flooring in all area. Paved parking area."
+      },
+      {
+        "label": "Finishing",
+        "detail": "Inside single coat mala plaster with white cement putty. Outside double coat sandface plaster with acrylic paint."
+      },
+      {
+        "label": "Electric",
+        "detail": "Single phase concealed copper electric wiring. Sufficient electric points with modular switches. One telephone point in each shop & office."
+      },
+      {
+        "label": "Lift",
+        "detail": "Automatic Branded Company Lift."
+      }
+    ],
+    "termsAndConditions": [
+      "This brochure is not to be treated as part of legal document and is for easy display of the project only.",
+      "All measurements are super buildup and subject to change as required.",
+      "The right to change in plan and any structure reserves with the organizer.",
+      "No External changes will be allowed or entertained.",
+      "Internal changes mandate to the organizer approval and be charged extra.",
+      "All legal charges, service to the organizer approval and will be borne by the member.",
+      "Any extra charges in between due to change in Government policy or rates will be informed and are to be borne by the member.",
+      "Maintenance deposit shall be borne by the member.",
+      "Irregular payment will lead to cancellation of booking.",
+      "GEB, Stamp duty, Registration, service tax, VAT or any other government taxes/Charges will be borne by members.",
+      "Any changes directed by architect/organizer will be binding to all the members."
+    ],
+    "process": [
+      { "step": "01", "title": "Idea & Start", "desc": "We assess your site, understand your vision, and set the groundwork. Through in-depth consultations, we establish a clear roadmap." },
+      { "step": "02", "title": "Design & Create", "desc": "Our architects translate ideas into detailed 3D blueprints focusing on aesthetic value, structural safety, and all necessary permits." },
+      { "step": "03", "title": "Build & Finish", "desc": "With precision engineering and premium materials, our team constructs your project exactly as planned with a seamless handover." }
+    ]
   },
   {
-    "id": 2,
+    "id": "shantam-9",
     "title": "Shantam-9",
+    "subtitle": "Everything at just One Destination... a Distinct Identity",
     "category": "Completed",
-    "location": "Ahmedabad, Gujarat",
+    "type": "Commercial",
+    "location": "Motipura Circle, Himmatnagar",
     "year": "2023",
     "area": "18,000 sq ft",
     "rating": 4.9,
     "tag": "Featured",
     "img": "/Images/ProjectsImages/Shantam-9.png",
-    "desc": "A modern residential complex designed for comfort and contemporary urban living."
+    "desc": "A fine commercial space development for emerging business owners and professionals.",
+    "heroDescription": "Shantam-9 is located in one of the most happening commercial avenues in the heart of Himmatnagar. Strategically located on one of the busiest crossroads on the Motipura circle, Shantam-9 gives your business all the advantages of a perfect location.",
+    "subDescription": "It has reputed hotels and business centers in close vicinity and at the same time, it connects you easily with other hubs. A new age business hub designed exclusively for the Next Generation.",
+    "tagline": "A fine commercial space development for Emerging Business owners and professionals. Presenting a new age business hub designed exclusively for Next Generation.",
+    "businessTagline": "Business is a game of having advanced outlook and guts to outpace rivals. You can achieve the same by giving an address that can convey your Class with superiority. Shantam-9 with its global outlook leads your business to a striking edge.",
+    "primeLocation": "Motipura Circle, Himmatnagar",
+    "locationImages": [
+      "/Images/ProjectsImages/Shantam-9.png"
+    ],
+    "heroImages": [
+      "/Images/ProjectsImages/Shantam-9/bg/shantam-9-bg-1.jpg",
+      "/Images/ProjectsImages/Shantam-9/bg/shantam-9-bg-2.jpg",
+      "/Images/ProjectsImages/Shantam-9/bg/shantam-9-bg-3.jpg",
+      "/Images/ProjectsImages/Shantam-9/bg/shantam-9-bg-4.jpg",
+      "/Images/ProjectsImages/Shantam-9/bg/shantam-9-bg-5.jpg"
+    ],
+    "keyPlan": "/Images/ProjectsImages/Shantam-9/key-plan/shantam-9-key-plan.jpg",
+    "salientFeatures": [
+      { "icon": "amenity", "text": "All units have attached Toilet" },
+      { "icon": "amenity", "text": "Allotted Parking in Basement" },
+      { "icon": "amenity", "text": "Ample visitor parking space on Ground Floor" },
+      { "icon": "office", "text": "Building plan approved as commercial complex" },
+      { "icon": "amenity", "text": "All units having full road frontage with adequate signage space" },
+      { "icon": "shieldCheck", "text": "Earthquake resistant structural design" },
+      { "icon": "amenity", "text": "Well designed foyers at every level" },
+      { "icon": "amenity", "text": "MCB & ELCB switches in all units" },
+      { "icon": "shieldCheck", "text": "N.A., N.O.C. plan approved" },
+      { "icon": "sparkles", "text": "Modern Elevation" }
+    ],
+    "floorPlans": [
+      {
+        "id": "key-plan",
+        "title": "Key Plan",
+        "image": "/Images/ProjectsImages/Shantam-9/key-plan/shantam-9-key-plan.jpg",
+        "floorImage": null,
+        "tagline": null,
+        "areaSheet": []
+      },
+      {
+        "id": "ground-floor",
+        "title": "Ground Floor Plan",
+        "image": "/Images/ProjectsImages/Shantam-9/bg/shantam-9-bg-2.jpg",
+        "floorImage": "/Images/ProjectsImages/Shantam-9/floor-map/Shantam-9-ground-floor.jpg",
+        "tagline": "Give your Business an Advantage of a Strategic Address Where Corporate Vision Meets Success",
+        "areaSheet": [
+          { "shopNo": "1", "dimensions": "14'2\" × 36'3\"", "sqft": "600" },
+          { "shopNo": "2", "dimensions": "14'5\" × 31'3\"", "sqft": "520" },
+          { "shopNo": "3", "dimensions": "14'2\" × 26'2\"", "sqft": "440" },
+          { "shopNo": "4", "dimensions": "43'6\" × 11'5\"", "sqft": "590" },
+          { "shopNo": "5", "dimensions": "43'6\" × 11'2\"", "sqft": "590" },
+          { "shopNo": "6", "dimensions": "11'9\" × 33'8\"", "sqft": "480" },
+          { "shopNo": "7", "dimensions": "9'5\" × 33'8\"", "sqft": "385" },
+          { "shopNo": "8", "dimensions": "9'5\" × 33'8\"", "sqft": "385" },
+          { "shopNo": "9", "dimensions": "9'5\" × 33'8\"", "sqft": "385" },
+          { "shopNo": "10", "dimensions": "9'5\" × 33'8\"", "sqft": "385" },
+          { "shopNo": "11", "dimensions": "(20'9\" × 18'0\") + (9'5\" × 15'8\")", "sqft": "630" }
+        ]
+      },
+      {
+        "id": "first-floor",
+        "title": "First Floor Plan",
+        "image": "/Images/ProjectsImages/Shantam-9/bg/shantam-9-bg-3.jpg",
+        "floorImage": "/Images/ProjectsImages/Shantam-9/floor-map/Shantam-9-first-floor.jpg",
+        "tagline": "Explore your Business with Class, Luxury & more…",
+        "areaSheet": [
+          { "shopNo": "1", "dimensions": "43'6\" × 21'0\"", "sqft": "1065" },
+          { "shopNo": "2", "dimensions": "38'7\" × 11'2\"", "sqft": "430" },
+          { "shopNo": "3", "dimensions": "38'7\" × 11'2\"", "sqft": "510" },
+          { "shopNo": "4", "dimensions": "38'7\" × 11'5\"", "sqft": "525" },
+          { "shopNo": "5", "dimensions": "(20'9\" × 18'0\") + (9'5\" × 15'8\")", "sqft": "630" },
+          { "shopNo": "6", "dimensions": "9'5\" × 33'8\"", "sqft": "385" },
+          { "shopNo": "7", "dimensions": "41'3\" × 38'7\"", "sqft": "1760" }
+        ]
+      },
+      {
+        "id": "second-floor",
+        "title": "Second Floor Plan",
+        "image": "/Images/ProjectsImages/Shantam-9/bg/shantam-9-bg-4.jpg",
+        "floorImage": "/Images/ProjectsImages/Shantam-9/floor-map/Shantam-9-second-floor.jpg",
+        "tagline": "Shantam-9 with its global outlook leads your business to a striking edge.",
+        "areaSheet": [
+          { "shopNo": "Banquet Hall", "dimensions": "—", "sqft": "5412" }
+        ]
+      },
+      {
+        "id": "third-floor",
+        "title": "Third Floor Plan",
+        "image": "/Images/ProjectsImages/Shantam-9/bg/shantam-9-bg-5.jpg",
+        "floorImage": "/Images/ProjectsImages/Shantam-9/floor-map/Shantam-9-thired-floor.jpg",
+        "tagline": "You can achieve the same by giving an address that can convey your Class with superiority.",
+        "areaSheet": [
+          { "shopNo": "Rooms", "dimensions": "19 Rooms", "sqft": "All with luxury facilities" }
+        ]
+      }
+    ],
+    "specifications": [
+      { "label": "Flooring", "detail": "Vitrified tiles flooring in all area. Paved parking area." },
+      { "label": "Finishing", "detail": "Inside single coat mala plaster with white cement putty. Outside double coat sandface plaster with acrylic paint." },
+      { "label": "Electric", "detail": "Single phase concealed copper electric wiring. Sufficient electric points with modular switches. One telephone point in each shop & office." },
+      { "label": "Lift", "detail": "Automatic Branded Company Lift." }
+    ],
+    "termsAndConditions": [
+      "This brochure is not to be treated as part of legal document and is for easy display of the project only.",
+      "All measurements are super buildup and subject to change as required.",
+      "The right to change in plan and any structure reserves with the organizer.",
+      "No External changes will be allowed or entertained.",
+      "Internal changes mandate to the organizer approval and be charged extra.",
+      "All legal charges, service to the organizer approval and will be borne by the member.",
+      "Any extra charges in between due to change in Government policy or rates will be informed and are to be borne by the member.",
+      "Maintenance deposit shall be borne by the member.",
+      "Irregular payment will lead to cancellation of booking.",
+      "GEB, Stamp duty, Registration, service tax, VAT or any other government taxes/Charges will be borne by members.",
+      "Any changes directed by architect/organizer will be binding to all the members."
+    ],
+    "process": [
+      { "step": "01", "title": "Idea & Start", "desc": "We assess your site, understand your vision, and set the groundwork. Through in-depth consultations, we establish a clear roadmap." },
+      { "step": "02", "title": "Design & Create", "desc": "Our architects translate ideas into detailed 3D blueprints focusing on aesthetic value, structural safety, and all necessary permits." },
+      { "step": "03", "title": "Build & Finish", "desc": "With precision engineering and premium materials, our team constructs your project exactly as planned with a seamless handover." }
+    ]
   },
+
   {
-    "id": 3,
+    "id": "shantam-11",
     "title": "Shantam-11",
+    "subtitle": "Corporate Excellence",
     "category": "Completed",
+    "type": "Commercial",
     "location": "Surat, Gujarat",
     "year": "2024",
     "area": "30,000 sq ft",
     "rating": 5.0,
     "tag": "Premium",
     "img": "/Images/ProjectsImages/Shantam-11.png",
-    "desc": "An iconic commercial landmark offering prime office spaces and retail environments."
+    "desc": "An iconic commercial landmark offering prime office spaces and retail environments.",
+    "heroDescription": "Shantam-11 is a premium commercial landmark that redefines business environments in Surat. State-of-the-art office spaces designed for the modern enterprise.",
+    "subDescription": "Give your business an address of prestige and purpose at Shantam-11.",
+    "tagline": "Premium commercial spaces offering an iconic address in Surat, Gujarat.",
+    "businessTagline": "Shantam-11 provides your business a striking competitive edge with its premium address and modern infrastructure.",
+    "primeLocation": "Surat, Gujarat",
+    "locationImages": [],
+    "salientFeatures": [
+      { "icon": "location", "text": "Prime Location: Surat" },
+      { "icon": "office", "text": "Premium Office Spaces" },
+      { "icon": "amenity", "text": "World-class Amenities" }
+    ],
+    "specifications": [
+      { "label": "Flooring", "detail": "Premium vitrified tiles flooring in all areas. Paved parking area." },
+      { "label": "Finishing", "detail": "Single coat mala plaster with white cement putty. Double coat sandface plaster outside." },
+      { "label": "Electric", "detail": "Three phase concealed copper electric wiring. Sufficient electric points with modular switches." },
+      { "label": "Lift", "detail": "Automatic Branded Company Lift." }
+    ],
+    "termsAndConditions": [
+      "This brochure is not to be treated as part of legal document and is for easy display of the project only.",
+      "All measurements are super buildup and subject to change as required.",
+      "GEB, Stamp duty, Registration, service tax, VAT or any other government taxes/Charges will be borne by members."
+    ],
+    "process": [
+      { "step": "01", "title": "Idea & Start", "desc": "Site assessment and commercial vision planning." },
+      { "step": "02", "title": "Design & Create", "desc": "Commercial architectural blueprints and permits." },
+      { "step": "03", "title": "Build & Finish", "desc": "Quality construction and seamless handover." }
+    ]
   },
   {
-    "id": 4,
+    "id": "shilp-embark",
     "title": "Shilp Embark",
+    "subtitle": "Where Commerce Meets Architecture",
     "category": "Completed",
+    "type": "Commercial",
     "location": "Ahmedabad, Gujarat",
     "year": "2022",
     "area": "45,000 sq ft",
     "rating": 4.8,
     "tag": "Commercial",
     "img": "/Images/ProjectsImages/Shantam3.png",
-    "desc": "A benchmark in commercial architecture with cutting-edge facilities and strategic location."
-  },
-  {
-    "id": 5,
-    "title": "Shantam Sky",
-    "category": "Ongoing",
-    "location": "Vadodara, Gujarat",
-    "year": "Coming 2025",
-    "area": "22,000 sq ft",
-    "rating": 0.0,
-    "tag": "New Launch",
-    "img": "/Images/ProjectsImages/ShantamSolitor.png",
-    "desc": "An upcoming residential masterwork that promises a life of luxury and tranquility."
+    "desc": "A benchmark in commercial architecture with cutting-edge facilities and strategic location.",
+    "heroDescription": "Shilp Embark is a benchmark in commercial architecture, offering cutting-edge facilities at a strategic Ahmedabad location. Designed for businesses that demand excellence.",
+    "subDescription": "Embark on a new chapter for your business at this landmark commercial destination.",
+    "tagline": "Cutting-edge commercial spaces at a strategic Ahmedabad location.",
+    "businessTagline": "Shilp Embark gives your business the landmark address it deserves — where commerce meets architectural excellence.",
+    "primeLocation": "Ahmedabad, Gujarat",
+    "locationImages": [],
+    "salientFeatures": [
+      { "icon": "location", "text": "Prime Location: Ahmedabad" },
+      { "icon": "office", "text": "Premium Commercial Spaces" },
+      { "icon": "amenity", "text": "Retail, Offices & Food Courts" }
+    ],
+    "specifications": [
+      { "label": "Flooring", "detail": "Premium vitrified tiles flooring in all areas. Paved parking area." },
+      { "label": "Finishing", "detail": "Single coat mala plaster with white cement putty inside. Double coat sandface plaster with acrylic paint outside." },
+      { "label": "Electric", "detail": "Concealed copper wiring. Sufficient points with modular switches." },
+      { "label": "Lift", "detail": "Automatic Branded Company Lift." }
+    ],
+    "termsAndConditions": [
+      "This brochure is not to be treated as part of legal document and is for easy display of the project only.",
+      "All measurements are super buildup and subject to change as required.",
+      "GEB, Stamp duty, Registration, service tax, VAT or any other government taxes/Charges will be borne by members."
+    ],
+    "process": [
+      { "step": "01", "title": "Idea & Start", "desc": "Site assessment and commercial vision planning." },
+      { "step": "02", "title": "Design & Create", "desc": "Commercial architectural blueprints and permits." },
+      { "step": "03", "title": "Build & Finish", "desc": "Quality construction and seamless handover." }
+    ]
   }
 ]
