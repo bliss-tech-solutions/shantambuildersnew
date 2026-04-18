@@ -8,7 +8,8 @@ import {
   HiOutlineGlobeAlt,
   HiOutlinePhone,
   HiOutlineMapPin,
-  HiOutlineArrowSmallRight
+  HiOutlineArrowSmallRight,
+  HiOutlineShieldCheck
 } from 'react-icons/hi2';
 import './AboutUsPage.css';
 
@@ -29,35 +30,27 @@ function useReveal(threshold = 0.15) {
 /* ── Data ── */
 const services = ['Design', 'Architecture', 'Construction'];
 
-const philosophyPoints = [
+const missionPoints = [
   {
-    icon: <HiOutlineTrophy />,
-    text: 'To establish leadership across commercial segments of the real estate industry, with a commitment to growth and excellence to adhere to the highest ethical standards.',
+    icon: <HiOutlineLightBulb />,
+    text: 'Continuously innovate & use the latest technology to provide high-quality spaces.',
   },
   {
     icon: <HiOutlineUserGroup />,
-    text: 'To provide satisfactory services and good value for money throughout the transaction process, right up to post sales and beyond.',
+    text: 'Build a strong team & corporate culture for dynamic work environments.',
   },
   {
-    icon: <HiOutlineLightBulb />,
-    text: 'To continuously innovate & use the latest technology to provide high-quality spaces to our customers.',
-  },
-  {
-    icon: <HiOutlineUsers />,
-    text: 'To build a strong team & a solid corporate culture in order to ensure a dynamic work environment and that the customer needs are taken care of.',
-  },
-  {
-    icon: <HiOutlineMagnifyingGlass />,
-    text: 'To set up & build standard processes to establish transparency and gain customer trust.',
+    icon: <HiOutlineShieldCheck />,
+    text: 'Establish transparent processes that gain customer trust.',
   },
   {
     icon: <HiOutlineGlobeAlt />,
-    text: 'Contribute & participate directly in social causes to uplift society especially in the fields of Education, Healthcare and Community Development.',
+    text: 'Contribute to social causes in Education, Healthcare & Community Development.',
   },
 ];
 
 const stats = [
-  { value: '15+', label: 'Years of Excellence' },
+  { value: '18+', label: 'Years of Excellence' },
   { value: '300+', label: 'Projects Delivered' },
   { value: '5000+', label: 'Happy Families' },
   { value: '100%', label: 'ISO Certified' },
@@ -69,11 +62,13 @@ function HeroSection() {
   return (
     <section className="au-hero" ref={ref}>
       <div className="au-hero-bg">
-        {/* Placeholder image — replace with real brand photo */}
-        <img
-          src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1800&q=80"
-          alt="Shantam Group office"
-          className="au-hero-img"
+        <video 
+          src="/Images/DroneVideo.mp4" 
+          autoPlay 
+          loop 
+          muted 
+          playsInline 
+          className="au-hero-video"
         />
         <div className="au-hero-overlay" />
       </div>
@@ -122,7 +117,7 @@ function VisionSection() {
               <div className="au-vision-img-accent" />
               {/* Floating stat */}
               <div className="au-vision-float-card">
-                <span className="au-vision-float-num">15+</span>
+                <span className="au-vision-float-num">18+</span>
                 <span className="au-vision-float-lbl">Years of Trust</span>
               </div>
             </div>
@@ -132,7 +127,7 @@ function VisionSection() {
           <div className={`au-vision-content reveal ${visible ? 'visible' : ''}`} style={{ transitionDelay: '150ms' }}>
             <div className="sb-section-label">Our Vision</div>
             <h2 className="sb-section-title">
-              Trusted · Transparent<br /><em>Admired · Esteemed</em>
+              Trusted · Transparent<br /><em>Admired.</em>
             </h2>
             <div className="sb-divider" />
             <p className="au-vision-lead">
@@ -144,7 +139,7 @@ function VisionSection() {
 
             {/* What We Do tags */}
             <div className="au-services-wrap">
-              <span className="au-services-label">What we do</span>
+              <span className="au-services-label">Services</span>
               <div className="au-services-tags">
                 {services.map((s, i) => (
                   <span
@@ -158,6 +153,26 @@ function VisionSection() {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function PhilosophySection() {
+  const [ref, visible] = useReveal(0.15);
+  return (
+    <section className="au-philosophy-quote" ref={ref}>
+      <div className="au-philosophy-quote-bg" />
+      <div className="sb-container">
+        <div className={`au-phil-block reveal ${visible ? 'visible' : ''}`}>
+          <div className="au-phil-label">Our Philosophy</div>
+          <h3 className="au-phil-main">
+            &quot;To establish leadership across commercial segments of the real estate industry — with a commitment to growth, excellence, and the highest ethical standards.&quot;
+          </h3>
+          <p className="au-phil-sub">
+            We provide satisfactory services and good value for money throughout the transaction process, right up to post-sales and beyond.
+          </p>
         </div>
       </div>
     </section>
@@ -182,32 +197,28 @@ function StatsBar() {
   );
 }
 
-function PhilosophySection() {
+function MissionSection() {
   const [ref, visible] = useReveal(0.1);
   return (
-    <section className="au-philosophy" ref={ref}>
+    <section className="au-mission" ref={ref}>
       <div className="sb-container">
-        <div className={`au-philosophy-header reveal ${visible ? 'visible' : ''}`}>
-          <div className="sb-section-label" style={{ justifyContent: 'center' }}>Our Philosophy</div>
+        <div className={`au-mission-header reveal ${visible ? 'visible' : ''}`}>
+          <div className="sb-section-label" style={{ justifyContent: 'center' }}>Our Mission</div>
           <h2 className="sb-section-title" style={{ textAlign: 'center' }}>
-            The Values We <em>Live By</em>
+            Building with purpose,<br /><em>delivering with care.</em>
           </h2>
-          <p className="au-philosophy-intro">
-            We are more than builders. We are shapers of environments, enablers of ambitions,
-            and guardians of the trust every client places in us.
-          </p>
         </div>
 
-        <div className="au-philosophy-grid">
-          {philosophyPoints.map((p, i) => (
+        <div className="au-mission-grid">
+          {missionPoints.map((p, i) => (
             <div
               key={i}
-              className={`au-philosophy-card reveal ${visible ? 'visible' : ''}`}
+              className={`au-mission-card reveal ${visible ? 'visible' : ''}`}
               style={{ transitionDelay: `${200 + i * 100}ms` }}
             >
-              <div className="au-philosophy-icon">{p.icon}</div>
-              <p className="au-philosophy-text">{p.text}</p>
-              <div className="au-phil-card-bar" />
+              <div className="au-mission-icon">{p.icon}</div>
+              <p className="au-mission-text">{p.text}</p>
+              <div className="au-mission-card-bar" />
             </div>
           ))}
         </div>
@@ -318,15 +329,30 @@ function GetInTouchSection() {
   );
 }
 
+function TrustBanner() {
+  const [ref, visible] = useReveal(0.1);
+  return (
+    <section className="au-trust-banner" ref={ref}>
+      <div className="sb-container">
+        <h3 className={`au-trust-text reveal ${visible ? 'visible' : ''}`}>
+          Trusted by hundreds of investors and businesses across Gujarat.
+        </h3>
+      </div>
+    </section>
+  );
+}
+
 /* ── Main Export ── */
 export default function AboutUsPage() {
   return (
     <main className="about-us-page">
       <HeroSection />
       <VisionSection />
-      <StatsBar />
       <PhilosophySection />
+      <MissionSection />
+      <StatsBar />
       <GetInTouchSection />
+      <TrustBanner />
     </main>
   );
 }

@@ -18,7 +18,8 @@
   inset: 0;
 }
 
-.au-hero-img {
+.au-hero-img,
+.au-hero-video {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -26,7 +27,8 @@
   transition: transform 10s ease;
 }
 
-.au-hero:hover .au-hero-img {
+.au-hero:hover .au-hero-img,
+.au-hero:hover .au-hero-video {
   transform: scale(1);
 }
 
@@ -304,15 +306,66 @@
   text-align: center;
 }
 
-/* ── Philosophy Section ── */
-.au-philosophy {
+/* ── Philosophy Quote Section ── */
+.au-philosophy-quote {
+  padding: 100px 0;
+  background: var(--bg-white);
+  position: relative;
+  overflow: hidden;
+}
+
+.au-philosophy-quote-bg {
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(224,182,103,0.05) 0%, transparent 60%);
+  z-index: 0;
+}
+
+.au-phil-block {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  max-width: 840px;
+  margin: 0 auto;
+}
+
+.au-phil-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--primary);
+  margin-bottom: 24px;
+}
+
+.au-phil-main {
+  font-family: var(--font-heading);
+  font-size: clamp(28px, 4vw, 36px);
+  line-height: 1.5;
+  color: var(--text-primary);
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+
+.au-phil-sub {
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--text-secondary);
+}
+
+/* ── Mission Section ── */
+.au-mission {
   padding: var(--section-py) 0;
   background: var(--bg-section);
   position: relative;
   overflow: hidden;
 }
 
-.au-philosophy::before {
+.au-mission::before {
   content: '';
   position: absolute;
   top: -80px;
@@ -324,34 +377,27 @@
   pointer-events: none;
 }
 
-.au-philosophy-header {
+.au-mission-header {
   text-align: center;
   max-width: 680px;
   margin: 0 auto 64px;
 }
 
-.au-philosophy-header .sb-section-label {
+.au-mission-header .sb-section-label {
   justify-content: center;
 }
 
-.au-philosophy-header .sb-section-label::before {
+.au-mission-header .sb-section-label::before {
   display: none;
 }
 
-.au-philosophy-intro {
-  font-size: 15px;
-  color: var(--text-secondary);
-  line-height: 1.8;
-  margin-top: 20px;
-}
-
-.au-philosophy-grid {
+.au-mission-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 24px;
 }
 
-.au-philosophy-card {
+.au-mission-card {
   background: #fff;
   border-radius: var(--radius-xl);
   padding: 36px 28px;
@@ -362,32 +408,33 @@
   cursor: default;
 }
 
-.au-philosophy-card:hover {
+.au-mission-card:hover {
   transform: translateY(-6px);
   box-shadow: var(--shadow-lg);
   border-color: rgba(224,182,103,0.3);
 }
 
-.au-philosophy-icon {
+.au-mission-icon {
   font-size: 32px;
   margin-bottom: 20px;
   display: block;
   filter: grayscale(0.2);
   transition: transform 0.3s ease;
+  color: var(--primary);
 }
 
-.au-philosophy-card:hover .au-philosophy-icon {
+.au-mission-card:hover .au-mission-icon {
   transform: scale(1.15);
 }
 
-.au-philosophy-text {
+.au-mission-text {
   font-size: 14px;
   line-height: 1.8;
   color: var(--text-secondary);
   margin: 0;
 }
 
-.au-phil-card-bar {
+.au-mission-card-bar {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -399,7 +446,7 @@
   transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.au-philosophy-card:hover .au-phil-card-bar {
+.au-mission-card:hover .au-mission-card-bar {
   transform: scaleX(1);
 }
 
@@ -601,8 +648,8 @@ a.au-contact-item-value:hover {
     bottom: 12px;
   }
 
-  .au-philosophy-grid {
-    grid-template-columns: 1fr;
+  .au-mission-grid {
+    grid-template-columns: 1fr 1fr;
     gap: 16px;
   }
 
@@ -631,4 +678,20 @@ a.au-contact-item-value:hover {
   .au-hero-scroll {
     display: none;
   }
+}
+
+/* ── Trust Banner ── */
+.au-trust-banner {
+  padding: 48px 0;
+  background: var(--secondary);
+  text-align: center;
+}
+
+.au-trust-text {
+  font-size: clamp(16px, 2.5vw, 20px);
+  font-weight: 500;
+  color: #fff;
+  opacity: 0.9;
+  margin: 0;
+  letter-spacing: 0.5px;
 }
