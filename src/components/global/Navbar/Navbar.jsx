@@ -31,9 +31,7 @@ export default function Navbar() {
   const navLinks = [
     { name: 'Home', path: '/' },
     { name: 'About Us', path: '/about' },
-    // If you want jumping to sections, you can use these or update later as needed
-    // { name: 'Projects', path: '/#works' },
-    // { name: 'Our Process', path: '/#process' },
+    { name: 'Contact Us', path: '/contact' },
   ];
 
   return (
@@ -66,9 +64,9 @@ export default function Navbar() {
 
           {/* CTA & Mobile Toggle */}
           <div className="navbar-actions">
-            <a href="tel:+917878787878" className="navbar-phone desktop-only">
+            <a href="tel:+919824400447" className="navbar-phone desktop-only">
               <HiOutlinePhone className="navbar-phone-icon" />
-              <span>+91 78787 87878</span>
+              <span>+91 98244 00447</span>
             </a>
 
             <button
@@ -107,9 +105,9 @@ export default function Navbar() {
           ))}
         </nav>
         <div className="mobile-menu-footer">
-          <a href="tel:+917878787878" className="sb-btn-primary full-width-btn">
+          <a href="tel:+919824400447" className="sb-btn-primary full-width-btn">
             <HiOutlinePhone size={20} />
-            <span>+91 78787 87878</span>
+            <span>+91 98244 00447</span>
           </a>
         </div>
       </div>

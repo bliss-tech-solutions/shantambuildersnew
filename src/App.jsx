@@ -4,6 +4,7 @@ import { FaWhatsapp } from 'react-icons/fa';
 import HomeRoute from './components/homeroutes/HomeRoute'
 import AboutUsPage from './components/otherroutes/AboutUsPage/AboutUsPage';
 import ProjectDetail from './components/otherroutes/ProjectDetail/ProjectDetail';
+import ContactPage from './components/otherroutes/ContactPage/ContactPage';
 import Footer from './components/homeroutes/Footer/Footer';
 import Navbar from './components/global/Navbar/Navbar';
 
@@ -26,6 +27,7 @@ function App() {
         <Route path="/" element={<HomeRoute />} />
         <Route path="/about" element={<AboutUsPage />} />
         <Route path="/projects/:id" element={<ProjectDetail />} />
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
 
       <Footer />

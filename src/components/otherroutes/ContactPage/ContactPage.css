@@ -1,0 +1,410 @@
+/* ══════════════════════════════════
+   CONTACT PAGE — Compact Stylesheet
+   ══════════════════════════════════ */
+
+/* ── Hero ── */
+.cp-hero {
+  position: relative;
+  height: 44vh;
+  min-height: 280px;
+  max-height: 400px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  padding-top: 80px;
+}
+
+.cp-hero-bg {
+  position: absolute;
+  inset: 0;
+  background-image: url('/Images/contact-us/contactus-header-bg-1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.cp-hero-pattern {
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(circle at 20% 50%, rgba(224,182,103,0.08) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(224,182,103,0.05) 0%, transparent 40%);
+}
+
+.cp-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(10,10,10,0.95) 0%, rgba(10,10,10,0.4) 60%, transparent 100%);
+}
+
+.cp-hero-content {
+  position: relative;
+  z-index: 10;
+  padding-bottom: 40px;
+}
+
+.cp-hero-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+
+.cp-hero-label::before {
+  content: '';
+  width: 28px;
+  height: 1.5px;
+  background: var(--primary);
+}
+
+.cp-hero-title {
+  font-family: var(--font-heading);
+  font-size: clamp(28px, 4.5vw, 52px);
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.05;
+  margin: 0;
+}
+
+.cp-hero-title em {
+  font-style: italic;
+  color: var(--primary);
+}
+
+/* ── Main Body ── */
+.cp-body {
+  padding: 52px 0 60px;
+  background: var(--bg-white);
+}
+
+/* ── Grid Layout ── */
+.cp-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: 48px;
+  align-items: start;
+}
+
+/* ── Left: Info Panel ── */
+.cp-info {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.cp-section-label {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--primary);
+  margin-bottom: 6px;
+}
+
+.cp-section-title {
+  font-family: var(--font-heading);
+  font-size: clamp(20px, 2.5vw, 28px);
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0 0 20px;
+  line-height: 1.2;
+}
+
+.cp-section-title em {
+  font-style: italic;
+  color: var(--primary);
+}
+
+/* ── Office Cards ── */
+.cp-offices {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.cp-office-card {
+  background: var(--bg-section);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-lg);
+  padding: 16px 18px;
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.cp-office-card:hover {
+  border-color: var(--border-gold);
+  box-shadow: var(--shadow-sm);
+}
+
+.cp-office-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-md);
+  background: rgba(224,182,103,0.1);
+  border: 1px solid var(--border-gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary);
+  flex-shrink: 0;
+  font-size: 17px;
+}
+
+.cp-office-label {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  color: var(--primary);
+  margin-bottom: 4px;
+}
+
+.cp-office-name {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.cp-office-addr {
+  font-size: 12.5px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+/* ── Phone Numbers ── */
+.cp-phones {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cp-phone-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  background: var(--bg-section);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-light);
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.cp-phone-row:hover {
+  border-color: var(--border-gold);
+  background: rgba(224,182,103,0.04);
+  transform: translateX(4px);
+}
+
+.cp-phone-icon {
+  color: var(--primary);
+  font-size: 16px;
+  flex-shrink: 0;
+}
+
+.cp-phone-num {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  letter-spacing: 0.5px;
+}
+
+/* ── Map ── */
+.cp-map {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid var(--border-light);
+  height: 200px;
+  width: 100%;
+}
+
+.cp-map iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+/* ── Right: Contact Form ── */
+.cp-form-panel {
+  background: var(--bg-section);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-xl);
+  padding: 32px 28px;
+}
+
+.cp-form-title {
+  font-family: var(--font-heading);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0 0 4px;
+}
+
+.cp-form-sub {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin: 0 0 24px;
+}
+
+.cp-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.cp-field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.cp-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+.cp-input,
+.cp-textarea {
+  width: 100%;
+  background: #fff;
+  border: 1.5px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: 11px 14px;
+  font-size: 13.5px;
+  font-family: var(--font-body);
+  color: var(--text-primary);
+  outline: none;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+  box-sizing: border-box;
+}
+
+.cp-input:focus,
+.cp-textarea:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(224,182,103,0.12);
+}
+
+.cp-input::placeholder,
+.cp-textarea::placeholder {
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+.cp-textarea {
+  resize: vertical;
+  min-height: 110px;
+  line-height: 1.6;
+}
+
+.cp-submit {
+  margin-top: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: var(--primary);
+  color: var(--secondary);
+  border: none;
+  border-radius: var(--radius-md);
+  padding: 13px 28px;
+  font-size: 13px;
+  font-weight: 700;
+  font-family: var(--font-body);
+  letter-spacing: 0.8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.cp-submit:hover {
+  background: var(--primary-dark);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-gold);
+}
+
+.cp-submit:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.cp-submit-icon {
+  font-size: 16px;
+  transition: transform 0.25s ease;
+}
+
+.cp-submit:hover .cp-submit-icon {
+  transform: translateX(3px);
+}
+
+/* ── Status Messages ── */
+.cp-msg {
+  padding: 10px 14px;
+  border-radius: var(--radius-md);
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 4px;
+}
+
+.cp-msg.success {
+  background: rgba(34,197,94,0.1);
+  border: 1px solid rgba(34,197,94,0.25);
+  color: #16a34a;
+}
+
+.cp-msg.error {
+  background: rgba(239,68,68,0.08);
+  border: 1px solid rgba(239,68,68,0.2);
+  color: #dc2626;
+}
+
+/* ── Divider ── */
+.cp-divider {
+  height: 1px;
+  background: var(--border-light);
+  margin: 0;
+}
+
+/* ── Responsive ── */
+@media (max-width: 900px) {
+  .cp-grid {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .cp-body {
+    padding: 40px 0 48px;
+  }
+
+  .cp-hero {
+    height: 38vh;
+    min-height: 240px;
+  }
+}
+
+@media (max-width: 600px) {
+  .cp-form-panel {
+    padding: 24px 18px;
+  }
+
+  .cp-hero-content {
+    padding-bottom: 32px;
+  }
+
+  .cp-offices {
+    gap: 10px;
+  }
+}

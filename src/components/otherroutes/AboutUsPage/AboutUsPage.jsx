@@ -1,10 +1,10 @@
 import { useEffect, useRef, useState } from 'react';
-import { 
-  HiOutlineTrophy, 
-  HiOutlineUserGroup, 
-  HiOutlineLightBulb, 
-  HiOutlineUsers, 
-  HiOutlineMagnifyingGlass, 
+import {
+  HiOutlineTrophy,
+  HiOutlineUserGroup,
+  HiOutlineLightBulb,
+  HiOutlineUsers,
+  HiOutlineMagnifyingGlass,
   HiOutlineGlobeAlt,
   HiOutlinePhone,
   HiOutlineMapPin,
@@ -62,12 +62,12 @@ function HeroSection() {
   return (
     <section className="au-hero" ref={ref}>
       <div className="au-hero-bg">
-        <video 
-          src="/Images/DroneVideo.mp4" 
-          autoPlay 
-          loop 
-          muted 
-          playsInline 
+        <video
+          src="/Images/DroneVideo.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
           className="au-hero-video"
         />
         <div className="au-hero-overlay" />
