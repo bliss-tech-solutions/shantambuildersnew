@@ -4,142 +4,130 @@
 
 .footer {
   background: #1A1A1A;
-  padding: 64px 0 0;
+  padding: 80px 0 0;
+  position: relative;
+  overflow: hidden;
 }
 
-/* ── Grid ── */
+/* ── Network Background Graphic ── */
+.footer::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: 
+    radial-gradient(circle at 50% 50%, rgba(255,255,255,0.03) 1px, transparent 1px),
+    linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+  background-size: 100px 100px, 50px 50px, 50px 50px;
+  background-position: center;
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+/* Simulating the constellation lines with a mask or additional layers if needed, 
+   but for now a clean grid/dot pattern is safer. I will add a subtle SVG mask later. */
+
 .footer-grid {
   display: grid;
-  grid-template-columns: 1.6fr 1fr 1fr 1fr;
-  gap: 48px;
-  padding-bottom: 56px;
+  grid-template-columns: 1.5fr 1fr 1.5fr;
+  gap: 60px;
+  padding-bottom: 60px;
+  position: relative;
+  z-index: 5;
 }
 
 /* ── Brand ── */
 .footer-logo {
   display: flex;
-  flex-direction: column;
-  margin-bottom: 16px;
+  align-items: flex-end;
+  gap: 12px;
+  margin-bottom: 32px;
 }
 
-.footer-logo-text {
-  font-family: var(--font-heading);
-  font-size: 26px;
-  font-weight: 700;
-  color: var(--primary);
-  line-height: 1;
+.footer-logo-img {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+  filter: brightness(0) saturate(100%) invert(86%) sepia(34%) saturate(757%) hue-rotate(345deg) brightness(91%) contrast(92%);
 }
 
 .footer-logo-sub {
-  font-family: var(--font-body);
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: rgba(255,255,255,0.4);
-  margin-top: 4px;
+  font-family: var(--font-heading);
+  font-size: 18px;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--primary);
+  opacity: 0.8;
+  margin-bottom: 8px;
 }
 
 .footer-tagline {
-  font-size: 13.5px;
-  line-height: 1.7;
-  color: rgba(255,255,255,0.5);
-  margin-bottom: 24px;
-  max-width: 260px;
+  font-size: 14px;
+  line-height: 1.8;
+  color: rgba(255,255,255,0.85);
+  max-width: 400px;
+  margin: 0;
 }
 
-/* ── Social Buttons ── */
-.footer-socials {
-  display: flex;
-  gap: 10px;
-}
-
-.footer-social-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 38px;
-  height: 38px;
-  border-radius: 50%;
-  border: 1px solid rgba(255,255,255,0.1);
-  color: rgba(255,255,255,0.5);
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
-
-.footer-social-btn:hover {
-  background: var(--primary);
-  border-color: var(--primary);
-  color: #1A1A1A;
-  transform: translateY(-3px);
+.footer-tagline strong {
+  color: #fff;
+  font-weight: 700;
 }
 
 /* ── Columns ── */
 .footer-col-title {
   font-family: var(--font-body);
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: var(--primary);
-  margin-bottom: 20px;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 2.5px;
+  color: #fff;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 
-/* ── Links ── */
-.footer-links {
+.footer-col-title::before {
+  content: '';
+  width: 40px;
+  height: 4px;
+  border-top: 1px solid rgba(255,255,255,0.3);
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+/* ── Contact Blocks ── */
+.footer-contact-block,
+.footer-address-block {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  gap: 8px;
 }
 
-.footer-link {
-  font-size: 13.5px;
-  color: rgba(255,255,255,0.5);
+.footer-contact-link {
+  font-size: 14px;
+  color: rgba(255,255,255,0.9);
   text-decoration: none;
-  transition: color 0.25s ease;
-  line-height: 1;
+  font-weight: 600;
+  transition: color 0.3s ease;
 }
 
-.footer-link:hover {
+.footer-contact-link:hover {
   color: var(--primary);
 }
 
-/* ── Contact ── */
-.footer-contact-list {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  list-style: none;
-  padding: 0;
+.footer-address-block p {
+  font-size: 13px;
+  line-height: 1.6;
+  color: rgba(255,255,255,0.7);
   margin: 0;
-}
-
-.footer-contact-list li {
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-}
-
-.footer-contact-label {
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 1.5px;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.3);
-}
-
-.footer-contact-value {
-  font-size: 13.5px;
-  color: rgba(255,255,255,0.5);
+  letter-spacing: 0.5px;
 }
 
 /* ── Divider ── */
 .footer-divider {
   height: 1px;
-  background: rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.1);
 }
 
 /* ── Bottom Bar ── */
@@ -147,21 +135,43 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 0;
-  gap: 16px;
-  flex-wrap: wrap;
+  padding: 30px 0;
+  position: relative;
+  z-index: 5;
 }
 
 .footer-copy {
-  font-size: 12.5px;
-  color: rgba(255,255,255,0.3);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: rgba(255,255,255,0.5);
+  text-transform: uppercase;
 }
 
-.footer-made {
-  font-size: 12px;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-  color: rgba(255,255,255,0.25);
+.footer-totop {
+  background: none;
+  border: none;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-transform: uppercase;
+  transition: opacity 0.3s ease;
+}
+
+.footer-totop:hover {
+  opacity: 0.7;
+}
+
+.totop-dot {
+  width: 6px;
+  height: 6px;
+  background: #fff;
+  border-radius: 50%;
 }
 
 /* ── Responsive ── */
@@ -170,29 +180,30 @@
     grid-template-columns: 1fr 1fr;
     gap: 40px;
   }
-
-  .footer-brand {
+  .footer-col--wide {
     grid-column: span 2;
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 768px) {
   .footer {
-    padding-top: 48px;
+    padding-top: 60px;
   }
-
   .footer-grid {
     grid-template-columns: 1fr;
-    gap: 32px;
+    gap: 40px;
   }
-
-  .footer-brand {
+  .footer-col--wide {
     grid-column: span 1;
   }
-
-  .footer-bottom {
+  .footer-logo {
     flex-direction: column;
     align-items: flex-start;
-    gap: 8px;
+    gap: 5px;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
   }
 }

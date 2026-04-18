@@ -1,38 +1,36 @@
-import { useEffect, useRef, useState } from 'react';
-import {
-  SearchOutlined,
-  FileTextOutlined,
-  ToolOutlined,
-  ExperimentOutlined,
-  CheckCircleOutlined,
-  HomeOutlined,
-} from '@ant-design/icons';
+import { useEffect, useRef,useState } from 'react';
+import { 
+  HiOutlineMagnifyingGlass, 
+  HiOutlineDocumentText, 
+  HiOutlineHome, 
+  HiOutlinePhone 
+} from 'react-icons/hi2';
 import './OurProcess.css';
 
 const steps = [
   {
     id: '01',
-    icon: <SearchOutlined />,
+    icon: <HiOutlineMagnifyingGlass />,
     title: 'Idea & Start',
     desc: 'We assess your site, understand your vision, and set the groundwork. Through in-depth consultations, we establish a clear roadmap tailored to your specific requirements.',
     duration: 'Phase 1',
-    color: '#C8A96E',
+    color: '#E0B667',
   },
   {
     id: '02',
-    icon: <FileTextOutlined />,
+    icon: <HiOutlineDocumentText />,
     title: 'Design & Create',
     desc: 'Our architects translate your ideas into detailed 3D blueprints. We focus on aesthetic value, structural safety, and securing all necessary permits to prepare for building.',
     duration: 'Phase 2',
-    color: '#7EB8A4',
+    color: '#E0B667',
   },
   {
     id: '03',
-    icon: <HomeOutlined />,
+    icon: <HiOutlineHome />,
     title: 'Build & Finish',
     desc: 'With precision engineering and premium materials, our team constructs your project exactly as planned—culminating in a multi-point quality inspection and seamless handover.',
     duration: 'Phase 3',
-    color: '#B87C5A',
+    color: '#E0B667',
   },
 ];
 
@@ -127,7 +125,7 @@ export default function OurProcess() {
                 <span>Get Free Consultation</span>
               </button>
               <a href="tel:+917878787878" className="process-phone">
-                📞 +91 78787 87878
+                <HiOutlinePhone /> +91 78787 87878
               </a>
             </div>
           </div>

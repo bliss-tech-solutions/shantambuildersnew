@@ -143,8 +143,8 @@
   inset: 0;
   background: linear-gradient(
     135deg,
-    rgba(200,169,110,0.1) 0%,
-    rgba(26,26,46,0.3) 100%
+    rgba(224,182,103,0.1) 0%,
+    rgba(26,26,26,0.3) 100%
   );
   pointer-events: none;
 }

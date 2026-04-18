@@ -16,7 +16,7 @@
 .process-bg-circle {
   position: absolute;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(200,169,110,0.07), transparent 70%);
+  background: radial-gradient(circle, rgba(224,182,103,0.07), transparent 70%);
 }
 
 .process-bg-circle--1 {
@@ -31,7 +31,7 @@
   height: 500px;
   bottom: -150px;
   right: -100px;
-  background: radial-gradient(circle, rgba(26,26,46,0.07), transparent 70%);
+  background: radial-gradient(circle, rgba(26,26,26,0.07), transparent 70%);
 }
 
 /* ── Header ── */
@@ -116,7 +116,7 @@
 .process-step:hover .process-card {
   transform: translateY(-6px);
   box-shadow: var(--shadow-lg);
-  border-color: rgba(200,169,110,0.3);
+  border-color: rgba(224,182,103,0.3);
 }
 
 /* Color bar accent */
@@ -148,8 +148,8 @@
   width: 52px;
   height: 52px;
   border-radius: var(--radius-md);
-  background: rgba(200,169,110,0.1);
-  border: 1.5px solid rgba(200,169,110,0.2);
+  background: rgba(224,182,103,0.1);
+  border: 1.5px solid rgba(224,182,103,0.2);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -177,7 +177,7 @@
   font-family: var(--font-heading);
   font-size: 28px;
   font-weight: 700;
-  color: rgba(200,169,110,0.2);
+  color: rgba(224,182,103,0.2);
   line-height: 1;
 }
 
@@ -187,7 +187,7 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
   color: var(--step-color, var(--primary));
-  background: rgba(200,169,110,0.08);
+  background: rgba(224,182,103,0.08);
   padding: 3px 10px;
   border-radius: var(--radius-full);
 }
@@ -230,12 +230,12 @@
   align-items: center;
   justify-content: center;
   transition: all var(--transition-mid);
-  box-shadow: 0 0 0 6px rgba(200,169,110,0.1);
+  box-shadow: 0 0 0 6px rgba(224,182,103,0.1);
 }
 
 .process-step:hover .process-dot-outer {
   background: var(--step-color, var(--primary));
-  box-shadow: 0 0 0 10px rgba(200,169,110,0.15);
+  box-shadow: 0 0 0 10px rgba(224,182,103,0.15);
   transform: scale(1.2);
 }
 
@@ -260,10 +260,10 @@
   align-items: center;
   justify-content: space-between;
   gap: 40px;
-  border: 1px solid rgba(200,169,110,0.15);
+  border: 1px solid rgba(224,182,103,0.15);
   background-image: 
-    radial-gradient(ellipse at top left, rgba(200,169,110,0.08) 0%, transparent 60%),
-    radial-gradient(ellipse at bottom right, rgba(200,169,110,0.05) 0%, transparent 60%);
+    radial-gradient(ellipse at top left, rgba(224,182,103,0.08) 0%, transparent 60%),
+    radial-gradient(ellipse at bottom right, rgba(224,182,103,0.05) 0%, transparent 60%);
 }
 
 .process-cta-content h3 {

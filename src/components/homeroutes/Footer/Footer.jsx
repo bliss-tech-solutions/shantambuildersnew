@@ -1,22 +1,11 @@
+import { Link } from 'react-router-dom';
 import './Footer.css';
 
-const companyLinks = [
-  { label: 'About Us', href: '#about' },
-  { label: 'Our Projects', href: '#works' },
-  { label: 'Our Process', href: '#process' },
-  { label: 'Why Choose Us', href: '#why' },
-  { label: 'Contact Us', href: '#contact' },
-];
-
-const quickLinks = [
-  { label: 'Residential Projects', href: '#works' },
-  { label: 'Commercial Projects', href: '#works' },
-  { label: 'Ongoing Projects', href: '#works' },
-  { label: 'ISO 9001 Certified', href: '#about' },
-];
-
+// Remove unused links to simplify to image reference
 export default function Footer() {
-  const year = new Date().getFullYear();
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
   return (
     <footer className="footer">
@@ -27,94 +16,40 @@ export default function Footer() {
 
           {/* Brand Column */}
           <div className="footer-brand">
-            <div className="footer-logo">
-              <span className="footer-logo-text">Shantam</span>
-              <span className="footer-logo-sub">Builders & Group</span>
-            </div>
+            <Link to="/" className="footer-logo" style={{ textDecoration: 'none' }}>
+              <img 
+                src="/Images/Logo/shantam-logo.svg" 
+                alt="Shantam Group Logo" 
+                className="footer-logo-img" 
+              />
+              <span className="footer-logo-sub">Group</span>
+            </Link>
             <p className="footer-tagline">
-              Building trust, creating legacies. Gujarat's premier construction group since 2007.
+              <strong>Shantam</strong> Comprises Most Suitable Space for Retail outlets, 
+              Showrooms, Bank, Offices, ATM, Food Courts, Restaurants, 
+              Banquet Hall, Hospital, Coaching Classes .....and many more.
             </p>
-            {/* Social Icons */}
-            <div className="footer-socials">
-              <a
-                href="https://www.facebook.com/shantambuilders"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="footer-social-btn"
-                aria-label="Facebook"
-              >
-                <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
-                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
-                </svg>
-              </a>
-              <a
-                href="https://www.instagram.com/shantambuilders/reels/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="footer-social-btn"
-                aria-label="Instagram"
-              >
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="18" height="18">
-                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
-                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
-                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
-                </svg>
-              </a>
-              <a
-                href="https://wa.me/917878787878"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="footer-social-btn"
-                aria-label="WhatsApp"
-              >
-                <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
-                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/>
-                </svg>
-              </a>
+          </div>
+
+          {/* Call Column */}
+          <div className="footer-col">
+            <h4 className="footer-col-title">CALL</h4>
+            <div className="footer-contact-block">
+              <a href="tel:+919824400447" className="footer-contact-link">98 244 00 447</a>
+              <a href="tel:+918866631447" className="footer-contact-link">88 666 31 447</a>
             </div>
           </div>
 
-          {/* Company Links */}
-          <div className="footer-col">
-            <h4 className="footer-col-title">Company</h4>
-            <ul className="footer-links">
-              {companyLinks.map((link, i) => (
-                <li key={i}>
-                  <a href={link.href} className="footer-link">{link.label}</a>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Quick Links */}
-          <div className="footer-col">
-            <h4 className="footer-col-title">Projects</h4>
-            <ul className="footer-links">
-              {quickLinks.map((link, i) => (
-                <li key={i}>
-                  <a href={link.href} className="footer-link">{link.label}</a>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Contact */}
-          <div className="footer-col">
-            <h4 className="footer-col-title">Get In Touch</h4>
-            <ul className="footer-contact-list">
-              <li>
-                <span className="footer-contact-label">Phone</span>
-                <a href="tel:+917878787878" className="footer-link">+91 78787 87878</a>
-              </li>
-              <li>
-                <span className="footer-contact-label">Email</span>
-                <a href="mailto:info@shantambuilders.com" className="footer-link">info@shantambuilders.com</a>
-              </li>
-              <li>
-                <span className="footer-contact-label">Address</span>
-                <span className="footer-contact-value">Ahmedabad, Gujarat, India</span>
-              </li>
-            </ul>
+          {/* Address Column */}
+          <div className="footer-col footer-col--wide">
+            <h4 className="footer-col-title">OFFICE ADDRESS</h4>
+            <div className="footer-address-block">
+              <p>A-501,</p>
+              <p>ONE WORLD CAPITAL,</p>
+              <p>B/H RAJPATH CLUB</p>
+              <p>OFF. SARKHEJ - GANDHINAGAR HIGHWAY</p>
+              <p>AHMEDABAD GUJARAT 380054</p>
+            </div>
           </div>
 
         </div>
@@ -125,11 +60,11 @@ export default function Footer() {
         {/* ── Bottom Bar ── */}
         <div className="footer-bottom">
           <span className="footer-copy">
-            © {year} Shantam Builders & Group. All rights reserved.
+            © DESIGNED BY THEBLISSSOLUTION TECHNOLOGIES
           </span>
-          <span className="footer-made">
-            ISO 9001 Certified &nbsp;·&nbsp; Serving Gujarat since 2007
-          </span>
+          <button className="footer-totop" onClick={scrollToTop}>
+            TO TOP <span className="totop-dot" />
+          </button>
         </div>
 
       </div>

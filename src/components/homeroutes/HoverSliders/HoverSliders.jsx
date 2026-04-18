@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { ArrowRightOutlined, ExpandOutlined } from '@ant-design/icons';
+import { HiOutlineArrowRight, HiOutlineArrowsPointingOut } from 'react-icons/hi2';
 import './HoverSliders.css';
 
 const slides = [
@@ -9,7 +9,7 @@ const slides = [
     subtitle: 'Residential',
     count: '120+',
     img: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=900&q=80',
-    color: '#C8A96E',
+    color: '#E0B667',
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const slides = [
     subtitle: 'Corporate',
     count: '85+',
     img: 'https://images.unsplash.com/photo-1486325212027-8081e485255e?w=900&q=80',
-    color: '#7EB8A4',
+    color: '#E0B667',
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ const slides = [
     subtitle: 'Industrial',
     count: '60+',
     img: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=900&q=80',
-    color: '#B87C5A',
+    color: '#E0B667',
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ const slides = [
     subtitle: 'Renovation',
     count: '35+',
     img: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=900&q=80',
-    color: '#8A7EB8',
+    color: '#E0B667',
   },
   {
     id: 5,
@@ -41,7 +41,7 @@ const slides = [
     subtitle: 'Technology',
     count: '200+',
     img: 'https://images.unsplash.com/photo-1613977257592-4871e5fcd7c4?w=900&q=80',
-    color: '#5A8AB8',
+    color: '#E0B667',
   },
 ];
 
@@ -135,7 +135,7 @@ export default function HoverSliders() {
                     <span className="hs-panel-count-label">projects completed</span>
                   </div>
                   <button className="hs-panel-cta">
-                    Explore <ArrowRightOutlined />
+                    Explore <HiOutlineArrowRight />
                   </button>
                 </div>
               </div>
@@ -145,7 +145,7 @@ export default function HoverSliders() {
 
               {/* Expand icon */}
               <div className="hs-expand-icon">
-                <ExpandOutlined />
+                <HiOutlineArrowsPointingOut />
               </div>
             </div>
           ))}

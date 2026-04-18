@@ -1,25 +1,30 @@
 import { useEffect, useRef,useState } from 'react';
-import { SafetyOutlined, StarOutlined, RocketOutlined, BuildOutlined } from '@ant-design/icons';
+import { 
+  HiOutlineShieldCheck, 
+  HiOutlineStar, 
+  HiOutlineRocketLaunch, 
+  HiOutlineBuildingOffice2 
+} from 'react-icons/hi2';
 import './WhyChooseUs.css';
 
 const features = [
   {
-    icon: <SafetyOutlined />,
+    icon: <HiOutlineShieldCheck />,
     title: 'Uncompromising Quality',
     desc: 'We source only the finest, certified materials, ensuring absolute structural integrity and longevity for your investment.',
   },
   {
-    icon: <StarOutlined />,
+    icon: <HiOutlineStar />,
     title: 'Precision Craftsmanship',
     desc: 'Our team of seasoned architects and skilled artisans pay meticulous attention to every minute detail of your project.',
   },
   {
-    icon: <RocketOutlined />,
+    icon: <HiOutlineRocketLaunch />,
     title: 'On-Time Delivery',
     desc: 'Time is money. Our advanced project management systems ensure tight timelines without cutting any corners.',
   },
   {
-    icon: <BuildOutlined />,
+    icon: <HiOutlineBuildingOffice2 />,
     title: 'End-to-End Solutions',
     desc: 'From initial 3D design to post-construction maintenance, we are your single point of contact for the entire lifecycle.',
   },

@@ -1,9 +1,32 @@
+import { useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { FaWhatsapp } from 'react-icons/fa';
 import HomeRoute from './components/homeroutes/HomeRoute'
+import AboutUsPage from './components/otherroutes/AboutUsPage/AboutUsPage';
+import Footer from './components/homeroutes/Footer/Footer';
+import Navbar from './components/global/Navbar/Navbar';
+
+// Helper to scroll to top on route change
+function ScrollToTop() {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+  return null;
+}
 
 function App() {
   return (
-    <>
-      <HomeRoute />
+    <Router>
+      <ScrollToTop />
+      <Navbar />
+      
+      <Routes>
+        <Route path="/" element={<HomeRoute />} />
+        <Route path="/about" element={<AboutUsPage />} />
+      </Routes>
+
+      <Footer />
 
       {/* ── WhatsApp Floating Button ── */}
       <a
@@ -13,19 +36,10 @@ function App() {
         className="whatsapp-float"
         aria-label="Chat on WhatsApp"
       >
-        {/* WhatsApp SVG icon */}
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 32 32"
-          width="28"
-          height="28"
-          fill="currentColor"
-        >
-          <path d="M16.004 2.667C8.64 2.667 2.667 8.64 2.667 16c0 2.363.63 4.677 1.816 6.71L2.667 29.333l6.795-1.782A13.285 13.285 0 0016.004 29.333C23.364 29.333 29.333 23.36 29.333 16S23.364 2.667 16.004 2.667zm0 24.267a11.02 11.02 0 01-5.617-1.537l-.403-.24-4.033 1.058 1.08-3.932-.263-.417A11.019 11.019 0 014.934 16C4.934 9.897 9.9 4.934 16.004 4.934S27.072 9.897 27.072 16 22.106 26.934 16.004 26.934zm6.09-8.253c-.333-.167-1.97-.972-2.275-1.083-.305-.111-.527-.167-.75.167-.222.333-.86 1.083-1.055 1.305-.194.222-.389.25-.722.083-.333-.167-1.407-.519-2.68-1.652-.99-.882-1.659-1.971-1.854-2.304-.194-.333-.02-.513.146-.68.15-.148.333-.389.5-.583.167-.194.222-.333.333-.555.111-.222.056-.417-.028-.583-.083-.167-.75-1.806-1.028-2.472-.27-.648-.546-.56-.75-.57l-.639-.011c-.222 0-.583.083-.889.417-.305.333-1.166 1.138-1.166 2.778s1.194 3.222 1.36 3.444c.167.222 2.35 3.583 5.694 5.027.797.344 1.417.55 1.903.704.8.254 1.528.218 2.104.132.641-.095 1.97-.805 2.25-1.584.278-.778.278-1.444.194-1.583-.083-.14-.305-.222-.638-.39z"/>
-        </svg>
+        <FaWhatsapp size={32} />
       </a>
-    </>
-  )
+    </Router>
+  );
 }
 
 export default App

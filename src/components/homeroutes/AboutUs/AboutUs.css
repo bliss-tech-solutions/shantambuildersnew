@@ -46,7 +46,7 @@
   background: linear-gradient(
     to bottom,
     transparent 50%,
-    rgba(16,16,30,0.55) 100%
+    rgba(26,26,26,0.55) 100%
   );
   pointer-events: none;
 }
@@ -93,9 +93,9 @@
   flex-direction: column;
   align-items: center;
   gap: 4px;
-  background: rgba(16,16,30,0.80);
+  background: rgba(26,26,26,0.80);
   backdrop-filter: blur(16px);
-  border: 1px solid rgba(200,169,110,0.25);
+  border: 1px solid rgba(224,182,103,0.25);
   border-radius: var(--radius-md);
   padding: 14px 12px;
   text-align: center;
@@ -103,7 +103,7 @@
 }
 
 .about-stat-card:hover {
-  border-color: rgba(200,169,110,0.6);
+  border-color: rgba(224,182,103,0.6);
 }
 
 .about-stat-icon {

@@ -87,7 +87,7 @@
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: rgba(200,169,110,0.15);
+  background: rgba(224,182,103,0.15);
   color: var(--primary);
   font-size: 10px;
   font-weight: 700;
@@ -118,7 +118,7 @@
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(200,169,110,0.04);
+  background: rgba(224,182,103,0.04);
   opacity: 0;
   transition: opacity 0.3s ease;
   border-radius: var(--radius-md);
@@ -180,7 +180,7 @@
 .fw-item-img-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(10,10,22,0.35) 0%, transparent 100%);
+  background: linear-gradient(135deg, rgba(16,16,16,0.35) 0%, transparent 100%);
 }
 
 .fw-category-badge {
@@ -197,13 +197,13 @@
 }
 
 .fw-category-badge--completed {
-  background: rgba(200,169,110,0.9);
-  color: #1A1A2E;
+  background: rgba(224,182,103,0.9);
+  color: #1A1A1A;
 }
 
 .fw-category-badge--ongoing {
-  background: rgba(126,184,164,0.9);
-  color: #1A1A2E;
+  background: #1A1A1A;
+  color: #E0B667;
 }
 
 /* ── Body ── */

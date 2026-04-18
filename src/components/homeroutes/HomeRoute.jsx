@@ -5,7 +5,6 @@ import FeaturedWorks from './FeaturedWorks/FeaturedWorks';
 import HoverSliders from './HoverSliders/HoverSliders';
 import OurProcess from './OurProcess/OurProcess';
 import WhyChooseUs from './WhyChooseUs/WhyChooseUs';
-import Footer from './Footer/Footer';
 
 export default function HomeRoute() {
   return (
@@ -16,7 +15,6 @@ export default function HomeRoute() {
       <HoverSliders />
       <OurProcess />
       <WhyChooseUs />
-      <Footer />
     </div>
   );
 }

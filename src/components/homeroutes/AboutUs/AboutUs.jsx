@@ -1,16 +1,17 @@
-import { useEffect, useRef, useState } from 'react';
-import {
-  TrophyOutlined,
-  SafetyCertificateOutlined,
-  ArrowRightOutlined,
-  CheckCircleFilled,
-  PhoneOutlined,
-} from '@ant-design/icons';
+import { Link } from 'react-router-dom';
+import { useEffect, useRef,useState } from 'react';
+import { 
+  HiOutlineTrophy, 
+  HiOutlineShieldCheck, 
+  HiOutlineArrowRight, 
+  HiOutlinePhone 
+} from 'react-icons/hi2';
+import { HiMiniCheckCircle } from 'react-icons/hi2';
 import './AboutUs.css';
 
 const highlights = [
-  { icon: <TrophyOutlined />, label: '18+', sublabel: 'Years of Excellence' },
-  { icon: <SafetyCertificateOutlined />, label: 'ISO', sublabel: '9001 Certified' },
+  { icon: <HiOutlineTrophy />, label: '18+', sublabel: 'Years of Excellence' },
+  { icon: <HiOutlineShieldCheck />, label: 'ISO', sublabel: '9001 Certified' },
 ];
 
 const values = [
@@ -93,19 +94,19 @@ export default function AboutUs() {
             <ul className={`about-values reveal ${isRevealed ? 'visible' : ''}`} style={{ transitionDelay: '500ms' }}>
               {values.map((v, i) => (
                 <li key={i} className="about-value-item">
-                  <CheckCircleFilled className="about-check" />
+                  <HiMiniCheckCircle className="about-check" />
                   <span>{v}</span>
                 </li>
               ))}
             </ul>
 
             <div className={`about-ctas reveal ${isRevealed ? 'visible' : ''}`} style={{ transitionDelay: '600ms' }}>
-              <button className="btn-primary-sm">
+              <Link to="/about" className="btn-primary-sm" style={{ textDecoration: 'none' }}>
                 <span>Explore Our Story</span>
-                <ArrowRightOutlined />
-              </button>
-              <a href="tel:+917878787878" className="btn-ghost-sm">
-                <PhoneOutlined />
+                <HiOutlineArrowRight />
+              </Link>
+              <a href="tel:+917878787878" className="btn-ghost-sm" style={{ textDecoration: 'none' }}>
+                <HiOutlinePhone />
                 <span>Free Consultation</span>
               </a>
             </div>

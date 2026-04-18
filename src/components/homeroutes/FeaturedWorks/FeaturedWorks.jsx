@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { ArrowRightOutlined, EnvironmentOutlined } from '@ant-design/icons';
+import { HiOutlineArrowRight, HiOutlineMapPin } from 'react-icons/hi2';
 import './FeaturedWorks.css';
 import projectsData from '../../../data/projects.json';
 
@@ -47,7 +47,7 @@ export default function FeaturedWorks() {
             </p>
             <button className="sb-btn-outline fw-header-cta">
               <span>View All Projects</span>
-              <ArrowRightOutlined />
+              <HiOutlineArrowRight />
             </button>
           </div>
         </div>
@@ -104,7 +104,7 @@ export default function FeaturedWorks() {
                 <div className="fw-detail">
                   <span className="fw-detail-label">Location</span>
                   <span className="fw-detail-value">
-                    <EnvironmentOutlined /> {project.location}
+                    <HiOutlineMapPin /> {project.location}
                   </span>
                 </div>
                 <div className="fw-detail">
@@ -116,7 +116,7 @@ export default function FeaturedWorks() {
               {/* Arrow CTA */}
               <div className="fw-item-arrow">
                 <span className="fw-arrow-circle">
-                  <ArrowRightOutlined />
+                  <HiOutlineArrowRight />
                 </span>
               </div>
 

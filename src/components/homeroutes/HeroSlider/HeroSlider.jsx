@@ -1,7 +1,12 @@
 import { useEffect, useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, EffectFade, Navigation, Pagination } from 'swiper/modules';
-import { ArrowRightOutlined, ArrowLeftOutlined, EnvironmentOutlined, PhoneOutlined } from '@ant-design/icons';
+import { 
+  HiOutlineArrowRight, 
+  HiOutlineArrowLeft, 
+  HiOutlineMapPin, 
+  HiOutlinePhone 
+} from 'react-icons/hi2';
 import 'swiper/css';
 import 'swiper/css/effect-fade';
 import 'swiper/css/navigation';
@@ -124,7 +129,7 @@ export default function HeroSlider() {
                 {/* <p className="slide-desc">{slide.description}</p> */}
                 <div className="slide-meta">
                   <span className="slide-meta-item">
-                    <EnvironmentOutlined /> {slide.location}
+                    <HiOutlineMapPin /> {slide.location}
                   </span>
                   <span className="slide-divider-dot" />
                   <span className="slide-meta-item slide-meta-project">{slide.label}</span>
@@ -132,10 +137,10 @@ export default function HeroSlider() {
                 <div className="slide-actions">
                   <button className="sb-btn-primary slide-cta">
                     <span>View Our Work</span>
-                    <ArrowRightOutlined />
+                    <HiOutlineArrowRight />
                   </button>
                   <button className="slide-cta-ghost">
-                    <PhoneOutlined /> Free Consultation
+                    <HiOutlinePhone /> Free Consultation
                   </button>
                 </div>
               </div>
@@ -146,10 +151,10 @@ export default function HeroSlider() {
         {/* Custom Navigation */}
         <div className="hero-nav">
           <button className="hero-nav-btn hero-nav-prev" onClick={() => swiperRef.current?.slidePrev()}>
-            <ArrowLeftOutlined />
+            <HiOutlineArrowLeft />
           </button>
           <button className="hero-nav-btn hero-nav-next" onClick={() => swiperRef.current?.slideNext()}>
-            <ArrowRightOutlined />
+            <HiOutlineArrowRight />
           </button>
         </div>
 
