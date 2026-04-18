@@ -4,7 +4,7 @@ import { HiOutlineArrowRight, HiOutlineMapPin } from 'react-icons/hi2';
 import './FeaturedWorks.css';
 import projectsData from '../../../data/projects.json';
 
-const CATEGORIES = ['All', 'Completed', 'Ongoing'];
+const CATEGORIES = ['All', 'Completed', 'Ongoing', 'Upcoming'];
 
 export default function FeaturedWorks() {
   const [activeCategory, setActiveCategory] = useState('All');

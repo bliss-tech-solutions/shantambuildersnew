@@ -40,13 +40,13 @@ export default function Navbar() {
     <>
       <header className={`navbar ${scrolled ? 'scrolled' : ''}`}>
         <div className="sb-container navbar-inner">
-          
+
           {/* Logo */}
           <Link to="/" className="navbar-brand">
-            <img 
-              src="/Images/Logo/shantamLogoBlack.svg" 
-              alt="Shantam Group" 
-              className="navbar-logo-img" 
+            <img
+              src="/Images/Logo/shantamLogoBlack.svg"
+              alt="Shantam Group"
+              className="navbar-logo-img"
             />
             {/* <span className="navbar-logo-text">Shantam</span> */}
           </Link>
@@ -54,9 +54,9 @@ export default function Navbar() {
           {/* Desktop Nav */}
           <nav className="navbar-nav desktop-nav">
             {navLinks.map((link) => (
-              <Link 
-                key={link.name} 
-                to={link.path} 
+              <Link
+                key={link.name}
+                to={link.path}
                 className={`nav-link ${location.pathname === link.path ? 'active' : ''}`}
               >
                 {link.name}
@@ -70,8 +70,8 @@ export default function Navbar() {
               <HiOutlinePhone className="navbar-phone-icon" />
               <span>+91 78787 87878</span>
             </a>
-            
-            <button 
+
+            <button
               className="navbar-mobile-toggle"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               aria-label="Toggle Menu"
@@ -87,19 +87,19 @@ export default function Navbar() {
       <div className={`mobile-menu-drawer ${mobileMenuOpen ? 'open' : ''}`}>
         <div className="mobile-menu-header">
           <Link to="/" className="navbar-brand" onClick={() => setMobileMenuOpen(false)}>
-            <img 
-              src="/Images/Logo/shantamLogoBlack.svg" 
-              alt="Shantam Group" 
-              className="navbar-logo-img" 
+            <img
+              src="/Images/Logo/shantamLogoBlack.svg"
+              alt="Shantam Group"
+              className="navbar-logo-img"
             />
             <span className="navbar-logo-text">Shantam</span>
           </Link>
         </div>
         <nav className="mobile-nav-links">
           {navLinks.map((link) => (
-            <Link 
-              key={link.name} 
-              to={link.path} 
+            <Link
+              key={link.name}
+              to={link.path}
               className={`mobile-nav-link ${location.pathname === link.path ? 'active' : ''}`}
             >
               {link.name}

@@ -207,44 +207,177 @@
   {
     "id": "shantam-11",
     "title": "Shantam-11",
-    "subtitle": "Corporate Excellence",
+    "subtitle": "A Fusion of aesthetic beauty and craftsmanship",
     "category": "Completed",
     "type": "Commercial",
-    "location": "Surat, Gujarat",
+    "location": "Nr. Kotak Mahindra Bank, Shamlaji Road, Modasa",
     "year": "2024",
-    "area": "30,000 sq ft",
+    "area": "2.25 lac sq ft",
     "rating": 5.0,
     "tag": "Premium",
-    "img": "/Images/ProjectsImages/Shantam-11.png",
-    "desc": "An iconic commercial landmark offering prime office spaces and retail environments.",
-    "heroDescription": "Shantam-11 is a premium commercial landmark that redefines business environments in Surat. State-of-the-art office spaces designed for the modern enterprise.",
-    "subDescription": "Give your business an address of prestige and purpose at Shantam-11.",
-    "tagline": "Premium commercial spaces offering an iconic address in Surat, Gujarat.",
-    "businessTagline": "Shantam-11 provides your business a striking competitive edge with its premium address and modern infrastructure.",
-    "primeLocation": "Surat, Gujarat",
-    "locationImages": [],
+    "img": "/Images/ProjectsImages/Shantam-11/bg/shantam-11-bg-1.jpg",
+    "desc": "The most advance Business Park of Modasa, where corporate vision meets success.",
+    "heroDescription": "With Years of experience Shantam group, Ahmedabad is coming up with Shantam-11, a pleasant business park that has best quality, planning, dedication, vision and innovation at Modasa — a fastest growing city of Aravalli district Gujarat.",
+    "subDescription": "Shantam-11 is the one and only elegant business park in the district where you can find most advance elevation, enrich your business with status and bring prosperity.",
+    "tagline": "A Fusion of aesthetic beauty and craftsmanship. The Spectrum of Lifestyle and luxury.",
+    "businessTagline": "Shantam – 11 a place where you get all state of the art facility which grow your business. A modern design ground + 3 story construction with spacious design which gives elegant looks.",
+    "primeLocation": "Heart of Modasa",
+    "locationImages": [
+      "/Images/ProjectsImages/Shantam-11/bg/shantam-11-bg-22.jpg",
+      "/Images/ProjectsImages/Shantam-11/bg/shantam-11-bg-6.jpg",
+      "/Images/ProjectsImages/Shantam-11/bg/shantam-11-bg-3.jpg"
+    ],
     "salientFeatures": [
-      { "icon": "location", "text": "Prime Location: Surat" },
-      { "icon": "office", "text": "Premium Office Spaces" },
-      { "icon": "amenity", "text": "World-class Amenities" }
+      { "icon": "location", "text": "Prime location at the heart of Modasa" },
+      { "icon": "amenity", "text": "Near proposed riverfront" },
+      { "icon": "office", "text": "2.25 lac Square fit three-story complex" },
+      { "icon": "amenity", "text": "State of the art modern infrastructure" },
+      { "icon": "amenity", "text": "Customizable horizontal & vertical offices" },
+      { "icon": "amenity", "text": "Sufficient basement parking" },
+      { "icon": "theatre", "text": "Multiplex theatre with 2 screens" },
+      { "icon": "amenity", "text": "Equipped with Latest stature lift" },
+      { "icon": "garden", "text": "Large central landscape garden" },
+      { "icon": "amenity", "text": "24 hours of water supply" },
+      { "icon": "office", "text": "Only for business purpose" },
+      { "icon": "hospital", "text": "Straiture lift for hospitals" }
+    ],
+    "floorPlans": [
+      {
+        "id": "key-plan",
+        "title": "Key Plan",
+        "image": "/Images/ProjectsImages/Shantam-11/key-plan/shantam-11-key-plan.jpg",
+        "floorImage": "/Images/ProjectsImages/Shantam-11/key-plan/shantam-11-key-plan-1.jpg",
+        "tagline": "Strategic planning for maximum business reach.",
+        "areaSheet": []
+      },
+      {
+        "id": "ground-floor",
+        "title": "Ground Floor Plan",
+        "image": "/Images/ProjectsImages/Shantam-11/key-plan/shantam-11-bg-ground-flor-1.jpg",
+        "floorImage": "/Images/ProjectsImages/Shantam-11/key-plan/shantam-11-bg-ground-flor-1.1.jpg",
+        "tagline": "Elegant business parts with most advance elevation.",
+        "areaSheet": [
+          { "shopNo": "Shops", "dimensions": "Multiple", "sqft": "Customizable" }
+        ]
+      },
+      {
+        "id": "first-floor",
+        "title": "First Floor Plan",
+        "image": "/Images/ProjectsImages/Shantam-11/key-plan/shantam-11-bg-first-flor-1.jpg",
+        "floorImage": "/Images/ProjectsImages/Shantam-11/key-plan/shantam-11-bg-first-flor-1.1.jpg",
+        "tagline": "Designed for the Next Generation of Entrepreneurship.",
+        "areaSheet": []
+      },
+      {
+        "id": "second-floor",
+        "title": "Second Floor Plan",
+        "image": "/Images/ProjectsImages/Shantam-11/key-plan/shantam-11-bg-second-flor-1.jpg",
+        "floorImage": "/Images/ProjectsImages/Shantam-11/key-plan/shantam-11-bg-second-flor-1.1.jpg",
+        "tagline": "Spacious and functional office environments.",
+        "areaSheet": []
+      },
+      {
+        "id": "third-floor",
+        "title": "Third Floor Plan",
+        "image": "/Images/ProjectsImages/Shantam-11/key-plan/shantam-11-bg-thired-flor-1.jpg",
+        "floorImage": "/Images/ProjectsImages/Shantam-11/key-plan/shantam-11-bg-thired-flor-1.1.jpg",
+        "tagline": "Where your business dreams take flight.",
+        "areaSheet": []
+      }
     ],
     "specifications": [
-      { "label": "Flooring", "detail": "Premium vitrified tiles flooring in all areas. Paved parking area." },
-      { "label": "Finishing", "detail": "Single coat mala plaster with white cement putty. Double coat sandface plaster outside." },
-      { "label": "Electric", "detail": "Three phase concealed copper electric wiring. Sufficient electric points with modular switches." },
-      { "label": "Lift", "detail": "Automatic Branded Company Lift." }
+      { "label": "Structure", "detail": "Earthquake proof R.C.C. frame structure." },
+      { "label": "Flooring", "detail": "The flooring of each Office and Shops with vitrified tiles." },
+      { "label": "Shutters", "detail": "Shops with M.S. rolling shutters." },
+      { "label": "Plaster", "detail": "Outdoor plaster with sand faced plaster where indoor with single cote mala plaster." },
+      { "label": "Electric", "detail": "Concealed copper electrical wiring with the modular switches." }
     ],
     "termsAndConditions": [
       "This brochure is not to be treated as part of legal document and is for easy display of the project only.",
       "All measurements are super buildup and subject to change as required.",
-      "GEB, Stamp duty, Registration, service tax, VAT or any other government taxes/Charges will be borne by members."
+      "The right to change in plan and any structure reserves with the organizer.",
+      "No External changes will be allowed or entertained.",
+      "Internal changes mandate to the organizer approval and be charged extra.",
+      "All legal charges, service to the organizer approval and will be borne by the member.",
+      "Any extra charges in between due to change in Government policy or rates will be informed and are to be borne by the member.",
+      "Maintenance deposit shall be borne by the member.",
+      "Irregular payment will lead to cancellation of booking.",
+      "GEB, Stamp duty, Registration, service tax, VAT or any other government taxes/Charges will be borne by members",
+      "Any changes directed by architect/organizer will be binding to all the members."
     ],
     "process": [
-      { "step": "01", "title": "Idea & Start", "desc": "Site assessment and commercial vision planning." },
-      { "step": "02", "title": "Design & Create", "desc": "Commercial architectural blueprints and permits." },
-      { "step": "03", "title": "Build & Finish", "desc": "Quality construction and seamless handover." }
+      { "step": "01", "title": "Idea & Start", "desc": "Assessing site and vision at Modasa." },
+      { "step": "02", "title": "Design & Create", "desc": "Modern infrastructure with wide open spaces." },
+      { "step": "03", "title": "Build & Finish", "desc": "Constructing the most advance business park." }
     ]
   },
+  {
+    "id": "shantam-7",
+    "title": "Shantam 7",
+    "category": "Ongoing",
+    "type": "Residential",
+    "location": "Ahmedabad, Gujarat",
+    "year": "2025",
+    "area": "TBD",
+    "tag": "Ongoing",
+    "img": "/Images/ProjectsImages/Shantam-7.png",
+    "desc": "Our latest premium residential development currently in progress.",
+    "heroDescription": "Shantam 7 is a premium ongoing project that continues our legacy of building trusted spaces.",
+    "process": [
+      { "step": "01", "title": "Idea & Start", "desc": "Phase 1 completion." },
+      { "step": "02", "title": "Design & Create", "desc": "Active construction." },
+      { "step": "03", "title": "Build & Finish", "desc": "Handover estimation 2025." }
+    ]
+  },
+  {
+    "id": "shantam-3",
+    "title": "Shantam 3",
+    "category": "Upcoming",
+    "type": "Residential",
+    "location": "Gujarat",
+    "year": "Upcoming",
+    "tag": "Upcoming",
+    "img": "/Images/ProjectsImages/Shantam3.png",
+    "desc": "A future-defining residential landmark coming soon.",
+    "process": []
+  },
+  {
+    "id": "shantam-bilipatra",
+    "title": "Shantam Bilipatra",
+    "category": "Upcoming",
+    "type": "Residential",
+    "location": "Gujarat",
+    "year": "Upcoming",
+    "tag": "Upcoming",
+    "img": "/Images/ProjectsImages/shantamsapphire.png",
+    "desc": "Experience the next chapter of luxury living.",
+    "process": []
+  },
+  {
+    "id": "shantam-rutul",
+    "title": "Shantam Rutul",
+    "category": "Upcoming",
+    "type": "Residential",
+    "location": "Gujarat",
+    "year": "Upcoming",
+    "tag": "Upcoming",
+    "img": "/Images/ProjectsImages/Shantam-11.png",
+    "desc": "Innovation meets tradition in this upcoming space.",
+    "process": []
+  },
+  {
+    "id": "shantam-parasmani",
+    "title": "Shantam Parasmani",
+    "category": "Upcoming",
+    "type": "Residential",
+    "location": "Gujarat",
+    "year": "Upcoming",
+    "tag": "Upcoming",
+    "img": "/Images/ProjectsImages/Shantam-9.png",
+    "desc": "A gem of a development coming to your city.",
+    "process": []
+  }
+,
   {
     "id": "shilp-embark",
     "title": "Shilp Embark",
