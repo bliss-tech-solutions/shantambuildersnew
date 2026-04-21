@@ -339,8 +339,24 @@ function LocationSection({ project }) {
             {project.primeLocation}
           </h2>
         </div>
-        <div className={`reveal ${visible ? 'visible' : ''}`} style={{ transitionDelay: '150ms' }}>
-          <LocationGallery images={project.locationImages} />
+        
+        <div className={`pd-location-content reveal ${visible ? 'visible' : ''}`} style={{ transitionDelay: '150ms' }}>
+          {project.locationImages && project.locationImages.length > 0 && (
+            <LocationGallery images={project.locationImages} />
+          )}
+
+          {project.mapUrl && (
+            <div className="pd-map-wrap" style={{ marginTop: project.locationImages?.length > 0 ? '40px' : '0' }}>
+              <iframe
+                src={project.mapUrl}
+                title={`${project.title} Location`}
+                className="pd-map-iframe"
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+            </div>
+          )}
         </div>
       </div>
     </section>

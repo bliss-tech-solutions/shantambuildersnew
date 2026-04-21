@@ -10,6 +10,7 @@ import {
   HiOutlineCheckCircle,
   HiOutlineExclamationCircle,
 } from 'react-icons/hi2';
+import { FaInstagram, FaFacebookF } from 'react-icons/fa6';
 import './ContactPage.css';
 
 /* ── Scroll Reveal Hook ── */
@@ -210,7 +211,7 @@ function ContactInfo() {
       {/* Map */}
       <div className="cp-map">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3227.12996841556!2d72.50067637462939!3d23.032697515951504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9b474ee18051%3A0x80f91ac33ab4be3c!2sONE%20WORLD%20CAPITAL!5e1!3m2!1sen!2sin!4v1754391190353!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.7570058587753!2d72.5032513!3d23.032692599999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9b474ee18051%3A0x80f91ac33ab4be3c!2sONE%20WORLD%20CAPITAL!5e0!3m2!1sen!2sin!4v1776741034516!5m2!1sen!2sin"
           title="Shantam Builders Office"
           allowFullScreen=""
           loading="lazy"
@@ -244,6 +245,37 @@ function ContactInfo() {
               <span className="cp-phone-num">{p.num}</span>
             </a>
           ))}
+        </div>
+      </div>
+
+      {/* Social Links */}
+      <div className="cp-social-section" style={{ marginTop: 10 }}>
+        <div className="cp-section-label">Connect With Us</div>
+        <div className="cp-social-grid">
+          <a
+            href="https://www.instagram.com/shantambuilders/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cp-social-item"
+          >
+            <div className="cp-social-icon"><FaInstagram /></div>
+            <div className="cp-social-info">
+              <span className="cp-social-name">Instagram</span>
+              <span className="cp-social-handle">@shantambuilders</span>
+            </div>
+          </a>
+          <a
+            href="https://www.facebook.com/shantambuilders"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cp-social-item"
+          >
+            <div className="cp-social-icon"><FaFacebookF /></div>
+            <div className="cp-social-info">
+              <span className="cp-social-name">Facebook</span>
+              <span className="cp-social-handle">shantambuilders</span>
+            </div>
+          </a>
         </div>
       </div>
     </div>

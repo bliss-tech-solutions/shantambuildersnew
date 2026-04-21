@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { FaInstagram, FaFacebookF } from 'react-icons/fa6';
 import './Footer.css';
 
 // Remove unused links to simplify to image reference
@@ -29,6 +30,27 @@ export default function Footer() {
               Showrooms, Bank, Offices, ATM, Food Courts, Restaurants, 
               Banquet Hall, Hospital, Coaching Classes .....and many more.
             </p>
+
+            <div className="footer-social">
+              <a 
+                href="https://www.instagram.com/shantambuilders/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="footer-social-link"
+                aria-label="Instagram"
+              >
+                <FaInstagram />
+              </a>
+              <a 
+                href="https://www.facebook.com/shantambuilders" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="footer-social-link"
+                aria-label="Facebook"
+              >
+                <FaFacebookF />
+              </a>
+            </div>
           </div>
 
           {/* Call Column */}

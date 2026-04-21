@@ -11,6 +11,7 @@
     "rating": 5.0,
     "tag": "Luxury",
     "img": "/Images/ProjectsImages/shantamsapphire.png",
+    "mapUrl": "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d7984.95748373987!2d72.55039!3d23.019213!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjPCsDAxJzA5LjIiTiA3MsKwMzMnMTAuNyJF!5e1!3m2!1sen!2sin!4v1776741257047!5m2!1sen!2sin",
     "desc": "A prestigious residential development offering unparalleled luxury and state-of-the-art amenities.",
     "heroDescription": "We are thrilled to introduce Shantam Sapphire, our premium redevelopment project located in the prime area of Ambawadi, Ahmedabad. Designed with modern architecture, comfort, and sustainability in mind, Shantam Sapphire offers luxurious living in the heart of the city.",
     "subDescription": "Experience a home where security, elegance, and convenience come together. Join us in shaping the future of urban living at Shantam Sapphire.",
@@ -203,10 +204,9 @@
       { "step": "03", "title": "Build & Finish", "desc": "With precision engineering and premium materials, our team constructs your project exactly as planned with a seamless handover." }
     ]
   },
-
   {
     "id": "shantam-11",
-    "title": "Shantam-11",
+    "title": "Shantam - 11",
     "subtitle": "A Fusion of aesthetic beauty and craftsmanship",
     "category": "Completed",
     "type": "Commercial",
@@ -217,72 +217,93 @@
     "tag": "Premium",
     "img": "/Images/ProjectsImages/Shantam-11/bg/shantam-11-bg-1.jpg",
     "desc": "The most advance Business Park of Modasa, where corporate vision meets success.",
-    "heroDescription": "With Years of experience Shantam group, Ahmedabad is coming up with Shantam-11, a pleasant business park that has best quality, planning, dedication, vision and innovation at Modasa — a fastest growing city of Aravalli district Gujarat.",
-    "subDescription": "Shantam-11 is the one and only elegant business park in the district where you can find most advance elevation, enrich your business with status and bring prosperity.",
+    "heroDescription": "With Years of experience Shantam group , Ahmedabad is coming up with Shatam-11 a pleasant business park has best quality, planning, dedication, vision and innovation at Modasa a fastest growing city of Aravalli district Gujarat. Shantam – 11 one & only elegant business part in the district where you can find most advance elevation, 2.2 lac. Square feet of ground and 3 story business park which enrich your business.",
+    "subDescription": "Based on future expectations and vision the Shantam-11 business park has basement parking, Morden garden office, large and elegant passages, Attractive entrance foyer and a round stairs a simple and quick access of Business Park, a one and only business park of Aravalli district of 21st century. The business park can give status to your business and bring prosperity.",
     "tagline": "A Fusion of aesthetic beauty and craftsmanship. The Spectrum of Lifestyle and luxury.",
-    "businessTagline": "Shantam – 11 a place where you get all state of the art facility which grow your business. A modern design ground + 3 story construction with spacious design which gives elegant looks.",
+    "businessTagline": "Shantam – 11 a place where you get all state of the art facility which grow your business. A modern design has ground + 3 story construction with spacious design which gives elegant looks to Shantam – 11 , a place where you get uninterrupted power and water supply which gives continues success to your business.",
     "primeLocation": "Heart of Modasa",
     "locationImages": [
-      "/Images/ProjectsImages/Shantam-11/bg/shantam-11-bg-22.jpg",
-      "/Images/ProjectsImages/Shantam-11/bg/shantam-11-bg-6.jpg",
+      "/Images/ProjectsImages/Shantam-11/folio/shantam-11-1.jpg",
+      "/Images/ProjectsImages/Shantam-11/folio/shantam-11-2.jpg",
+      "/Images/ProjectsImages/Shantam-11/folio/shantam-11-3.jpg"
+    ],
+    "heroImages": [
+      "/Images/ProjectsImages/Shantam-11/bg/shantam-11-bg-5.jpg",
+      "/Images/ProjectsImages/Shantam-11/bg/shantam-11-bg-2.jpg",
+      "/Images/ProjectsImages/Shantam-11/bg/shantam-11-bg-1.jpg",
+      "/Images/ProjectsImages/Shantam-11/bg/shantam-11-bg-4.jpg",
       "/Images/ProjectsImages/Shantam-11/bg/shantam-11-bg-3.jpg"
     ],
     "salientFeatures": [
-      { "icon": "location", "text": "Prime location at the heart of Modasa" },
+      { "icon": "location", "text": "Prime location at the heart of Modasa." },
       { "icon": "amenity", "text": "Near proposed riverfront" },
-      { "icon": "office", "text": "2.25 lac Square fit three-story complex" },
-      { "icon": "amenity", "text": "State of the art modern infrastructure" },
-      { "icon": "amenity", "text": "Customizable horizontal & vertical offices" },
-      { "icon": "amenity", "text": "Sufficient basement parking" },
-      { "icon": "theatre", "text": "Multiplex theatre with 2 screens" },
-      { "icon": "amenity", "text": "Equipped with Latest stature lift" },
-      { "icon": "garden", "text": "Large central landscape garden" },
-      { "icon": "amenity", "text": "24 hours of water supply" },
+      { "icon": "office", "text": "Total 2.25 lac Square fit of the Project with three-story complex." },
+      { "icon": "amenity", "text": "State of the art modern infrastructure with wide open space." },
+      { "icon": "amenity", "text": "Customizable horizontal and vertical office and shops with modern design." },
+      { "icon": "amenity", "text": "Sufficient basement parking." },
+      { "icon": "theatre", "text": "Multiplex theatre with 2 screens." },
+      { "icon": "amenity", "text": "Equipped with Latest stature lift." },
+      { "icon": "garden", "text": "Large central landscape garden." },
+      { "icon": "amenity", "text": "24 hours of water supply." },
       { "icon": "office", "text": "Only for business purpose" },
-      { "icon": "hospital", "text": "Straiture lift for hospitals" }
+      { "icon": "hospital", "text": "Equipped with modern straiture lift for hospitals." }
     ],
     "floorPlans": [
       {
         "id": "key-plan",
         "title": "Key Plan",
         "image": "/Images/ProjectsImages/Shantam-11/key-plan/shantam-11-key-plan.jpg",
-        "floorImage": "/Images/ProjectsImages/Shantam-11/key-plan/shantam-11-key-plan-1.jpg",
         "tagline": "Strategic planning for maximum business reach.",
-        "areaSheet": []
+        "areaSheet": [],
+        "images": [
+          { "url": "/Images/ProjectsImages/Shantam-11/key-plan/shantam-11-key-plan-1.jpg", "label": "Key Plan View" }
+        ]
       },
       {
         "id": "ground-floor",
         "title": "Ground Floor Plan",
         "image": "/Images/ProjectsImages/Shantam-11/key-plan/shantam-11-bg-ground-flor-1.jpg",
-        "floorImage": "/Images/ProjectsImages/Shantam-11/key-plan/shantam-11-bg-ground-flor-1.1.jpg",
         "tagline": "Elegant business parts with most advance elevation.",
         "areaSheet": [
           { "shopNo": "Shops", "dimensions": "Multiple", "sqft": "Customizable" }
+        ],
+        "images": [
+          { "url": "/Images/ProjectsImages/Shantam-11/key-plan/shantam-11-bg-ground-flor-1.1.jpg", "label": "Ground View 1" },
+          { "url": "/Images/ProjectsImages/Shantam-11/key-plan/shantam-11-bg-ground-flor-1.2.jpg", "label": "Ground View 2" }
         ]
       },
       {
         "id": "first-floor",
         "title": "First Floor Plan",
         "image": "/Images/ProjectsImages/Shantam-11/key-plan/shantam-11-bg-first-flor-1.jpg",
-        "floorImage": "/Images/ProjectsImages/Shantam-11/key-plan/shantam-11-bg-first-flor-1.1.jpg",
         "tagline": "Designed for the Next Generation of Entrepreneurship.",
-        "areaSheet": []
+        "areaSheet": [],
+        "images": [
+          { "url": "/Images/ProjectsImages/Shantam-11/key-plan/shantam-11-bg-first-flor-1.1.jpg", "label": "First View 1" },
+          { "url": "/Images/ProjectsImages/Shantam-11/key-plan/shantam-11-bg-first-flor-1.2.jpg", "label": "First View 2" }
+        ]
       },
       {
         "id": "second-floor",
         "title": "Second Floor Plan",
         "image": "/Images/ProjectsImages/Shantam-11/key-plan/shantam-11-bg-second-flor-1.jpg",
-        "floorImage": "/Images/ProjectsImages/Shantam-11/key-plan/shantam-11-bg-second-flor-1.1.jpg",
         "tagline": "Spacious and functional office environments.",
-        "areaSheet": []
+        "areaSheet": [],
+        "images": [
+          { "url": "/Images/ProjectsImages/Shantam-11/key-plan/shantam-11-bg-second-flor-1.1.jpg", "label": "Second View 1" },
+          { "url": "/Images/ProjectsImages/Shantam-11/key-plan/shantam-11-bg-second-flor-1.2.jpg", "label": "Second View 2" }
+        ]
       },
       {
         "id": "third-floor",
         "title": "Third Floor Plan",
         "image": "/Images/ProjectsImages/Shantam-11/key-plan/shantam-11-bg-thired-flor-1.jpg",
-        "floorImage": "/Images/ProjectsImages/Shantam-11/key-plan/shantam-11-bg-thired-flor-1.1.jpg",
         "tagline": "Where your business dreams take flight.",
-        "areaSheet": []
+        "areaSheet": [],
+        "images": [
+          { "url": "/Images/ProjectsImages/Shantam-11/key-plan/shantam-11-bg-thired-flor-1.1.jpg", "label": "Third View 1" },
+          { "url": "/Images/ProjectsImages/Shantam-11/key-plan/shantam-11-bg-thired-flor-1.2.jpg", "label": "Third View 2" }
+        ]
       }
     ],
     "specifications": [
@@ -302,7 +323,7 @@
       "Any extra charges in between due to change in Government policy or rates will be informed and are to be borne by the member.",
       "Maintenance deposit shall be borne by the member.",
       "Irregular payment will lead to cancellation of booking.",
-      "GEB, Stamp duty, Registration, service tax, VAT or any other government taxes/Charges will be borne by members",
+      "GEB, Stamp duty, Registration, service tax, VAT or any other government taxes/Charges will be borne by members.",
       "Any changes directed by architect/organizer will be binding to all the members."
     ],
     "process": [
