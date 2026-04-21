@@ -75,19 +75,7 @@ function LocationGallery({ images }) {
           </>
         )}
       </div>
-      {images.length > 1 && (
-        <div className="pd-gallery-thumbs">
-          {images.map((img, i) => (
-            <button
-              key={i}
-              className={`pd-gallery-thumb ${active === i ? 'active' : ''}`}
-              onClick={() => setActive(i)}
-            >
-              <img src={img} alt={`Thumb ${i + 1}`} />
-            </button>
-          ))}
-        </div>
-      )}
+
     </div>
   );
 }
@@ -329,16 +317,15 @@ function FloorPlansSection({ project }) {
 /* ── Prime Location ── */
 function LocationSection({ project }) {
   const [ref, visible] = useReveal(0.1);
+  if ((!project.locationImages || project.locationImages.length === 0) && !project.mapUrl) {
+    return null;
+  }
   return (
     <section className="pd-location" ref={ref}>
       <div className="sb-container">
-        <div className={`pd-location-header reveal ${visible ? 'visible' : ''}`}>
-          <div className="sb-section-label" style={{ justifyContent: 'center' }}>Prime Location</div>
-          <h2 className="sb-section-title" style={{ textAlign: 'center' }}>
-            <HiOutlineMapPin style={{ color: 'var(--primary)', verticalAlign: 'middle', marginRight: 8 }} />
-            {project.primeLocation}
-          </h2>
-        </div>
+        {/* Section header removed to avoid redundancy with Floor Plans section */}
+
+
         
         <div className={`pd-location-content reveal ${visible ? 'visible' : ''}`} style={{ transitionDelay: '150ms' }}>
           {project.locationImages && project.locationImages.length > 0 && (
